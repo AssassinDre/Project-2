@@ -30,13 +30,7 @@ public class Dialouge : MonoBehaviour {
 	void OnGUI()
 	{
 		if (npcTalk) GUI.Box(new Rect(110, 110, Screen.width/2, 100), textDisplayed);
-		if (playerTalk) GUI.Box(new Rect(110, 110, Screen.width/2, 100), textDisplayed);
-		if (talking) {
-			if (GUI.Button (new Rect((Screen.width)/2,(Screen.height)/2,140,70), "Proceed"))
-			{
-				proceed = true;
-			}
-		}
+		if (playerTalk) GUI.Box(new Rect(110, 220, Screen.width/2, 100), textDisplayed);
 	}
 	
 	void OnTriggerEnter(Collider other) {
@@ -104,6 +98,22 @@ public class Dialouge : MonoBehaviour {
 			{
 				playerTalk = true;
 				npcTalk=false;
+				line++;
+				temp = dialogLines [line];
+			}
+			if (temp.Contains ("NPC"))
+			{
+				playerTalk = false;
+				npcTalk= true;
+				line++;
+				temp = dialogLines [line];
+			}
+			if (temp.Contains ("End"))
+			{
+				playerTalk = false;
+				npcTalk= false;
+				talking = false;
+				return true;
 			}
 			textDisplayed = temp;
 			//StartCoroutine(MyCoroutine());
