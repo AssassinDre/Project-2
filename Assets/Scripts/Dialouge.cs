@@ -8,10 +8,10 @@ public class Dialouge : MonoBehaviour {
 	//StreamReader reader = new StreamReader("file.txt");
 	bool talk = false, talking = false, npcTalk = false, playerTalk = false, proceed = false;
 	private Vector2 pos;
-
 	public TextAsset textFile;
 	string[] dialogLines;
 	string textDisplayed;
+
 
 	string tag;
 	// Use this for initialization
@@ -29,8 +29,8 @@ public class Dialouge : MonoBehaviour {
 
 	void OnGUI()
 	{
-		if (npcTalk) GUI.Box(new Rect(110, 110, Screen.width/2, 100), textDisplayed);
-		if (playerTalk) GUI.Box(new Rect(110, 220, Screen.width/2, 100), textDisplayed);
+		if (npcTalk) GUI.Box(new Rect(Screen.width-300, Screen.height-100, 300, 100), textDisplayed);
+		if (playerTalk) GUI.Box(new Rect(0, Screen.height-100, 300, 100), textDisplayed);
 	}
 	
 	void OnTriggerEnter(Collider other) {
@@ -52,12 +52,14 @@ public class Dialouge : MonoBehaviour {
 
 	void checkFile(string start)
 	{
+
 		int length = dialogLines.GetLength(0);
 		for (int i = 0; i < length; ++i) {
 			string temp = dialogLines[i];
 			//Debug.Log(temp.Equals(tag));
 			if (temp.Equals(tag))
 			{
+				PlayerMove2.isPaused = true;
 				talking = true;
 				textDisplayed = temp;
 				readDialog(i);
@@ -81,7 +83,7 @@ public class Dialouge : MonoBehaviour {
 			playerTalking(line);
 		}
 		if (temp.Equals("End")){
-
+	
 		}
 
 
@@ -113,6 +115,7 @@ public class Dialouge : MonoBehaviour {
 				playerTalk = false;
 				npcTalk= false;
 				talking = false;
+				PlayerMove2.isPaused = false;
 				return true;
 			}
 			textDisplayed = temp;

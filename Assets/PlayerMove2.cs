@@ -2,13 +2,13 @@
 using System.Collections;
 
 public class PlayerMove2 : MonoBehaviour {
-	
-	bool isPaused = false;
+
+	static public bool isPaused = false;
 	private Vector2 pos;
 	public float speed = 1f;
 	DoorMove doorMove;
 	public GameObject Door1A, Door1B, Door2A, Door2B;
-	bool moving = false;
+	public bool moving = false;
 	bool door = false;
 	bool displayInven = false;
 	bool collected = false;
