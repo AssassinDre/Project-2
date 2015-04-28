@@ -100,7 +100,7 @@ public class Dialouge : MonoBehaviour {
 			line++;
 			temp = dialogLines [line];
 			print ("TEMP:" + temp);
-			if (temp.Equals ("Player"))
+			if (temp.Contains ("Player"))
 			{
 				playerTalk = true;
 				npcTalk=false;
