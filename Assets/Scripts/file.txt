@@ -1,0 +1,12 @@
+Text1
+NPC
+Hello!  This is an example of talking
+Player
+Really? Cool.
+End
+Text2
+NPC
+This is another example!
+Player
+Even cooler.
+End

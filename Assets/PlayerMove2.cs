@@ -26,6 +26,9 @@ public class PlayerMove2 : MonoBehaviour {
 		myLabelStyle.normal.textColor = Color.red;
 		myLabelStyle.fontSize = 50;
 
+
+
+
 		if (displayInven) {
 			GUI.Box(new Rect(0, 0, Screen.width, Screen.height), "Dummy Inventory Screen");
 			if (collected) {
@@ -38,9 +41,10 @@ public class PlayerMove2 : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		//Debug.Log (Input.mousePosition);
 		checkInput ();
-		Debug.Log("Moving: " + moving);
-		Debug.Log("Door: " + door);
+		//Debug.Log("Moving: " + moving);
+		//Debug.Log("Door: " + door);
 	}
 
 	void OnTriggerEnter(Collider other) {
@@ -48,7 +52,7 @@ public class PlayerMove2 : MonoBehaviour {
 		if (other.tag == "Collectable") {
 			Destroy (other.gameObject);
 			collected = true;
-			Debug.Log (collected);
+			//Debug.Log (collected);
 		}
 	}
 
@@ -92,7 +96,7 @@ public class PlayerMove2 : MonoBehaviour {
 
 		if (!isPaused) {
 			if (Input.GetKey (KeyCode.D) || Input.GetKeyDown (KeyCode.RightArrow)) {
-				Debug.Log ("Acitavated");
+				//Debug.Log ("Acitavated");
 				transform.position += Vector3.right * speed * Time.deltaTime;
 			}
 			// For left, we have to subtract the direction
@@ -103,7 +107,7 @@ public class PlayerMove2 : MonoBehaviour {
 				if (moving == true)
 				{
 					door = true;
-					Debug.Log ("Worked");
+					//Debug.Log ("Worked");
 				}
 
 			}
