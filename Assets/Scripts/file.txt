@@ -1,12 +1,37 @@
+Text2A
+
+NPC
+
+You Changed this text!
+
+Player
+
+Awesome
+
+End
 Text1
+
 NPC
-Hello!  This is an example of talking
+
+Hello!  
+This is an example of talking
+
 Player
-Really? Cool.
+
+Really? 
+Cool.
+
 End
+
 Text2
+
 NPC
+
 This is another example!
+
 Player
+
 Even cooler.
+
 End
+

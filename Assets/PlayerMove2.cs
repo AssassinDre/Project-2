@@ -11,7 +11,7 @@ public class PlayerMove2 : MonoBehaviour {
 	public bool moving = false;
 	bool door = false;
 	bool displayInven = false;
-	bool collected = false;
+	static public bool collected = false;
 	public Texture2D dummyInventory;
 	
 	// Use this for initialization
@@ -41,6 +41,7 @@ public class PlayerMove2 : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
 		//Debug.Log (Input.mousePosition);
 		checkInput ();
 		//Debug.Log("Moving: " + moving);

@@ -46,7 +46,14 @@ public class Dialouge : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetKey (KeyCode.W) && talk){
+			print(tag);
 			checkFile(tag);
+		}
+
+		if (PlayerMove2.collected) {
+			GameObject Text2 = GameObject.FindWithTag("Text2");
+			Text2.tag = tag + "A";
+			print (Text2.tag);
 		}
 	}
 
@@ -54,9 +61,11 @@ public class Dialouge : MonoBehaviour {
 	{
 
 		int length = dialogLines.GetLength(0);
+		//print (length);
 		for (int i = 0; i < length; ++i) {
 			string temp = dialogLines[i];
 			//Debug.Log(temp.Equals(tag));
+			//print(temp);
 			if (temp.Equals(tag))
 			{
 				PlayerMove2.isPaused = true;
@@ -74,7 +83,7 @@ public class Dialouge : MonoBehaviour {
 		Debug.Log(temp);
 		if (temp.Contains ("NPC")) {
 			npcTalk = true;
-			Debug.Log("Proceed1");
+			//Debug.Log("Proceed1");
 			StartCoroutine(npcTalking (line));
 		}
 		if (temp.Equals("Player"))
@@ -95,7 +104,7 @@ public class Dialouge : MonoBehaviour {
 		while (true) {
 			line++;
 			temp = dialogLines [line];
-			print ("TEMP:" + temp);
+			//print ("TEMP:" + temp);
 			if (temp.Contains ("Player"))
 			{
 				playerTalk = true;
