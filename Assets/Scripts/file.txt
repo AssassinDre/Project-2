@@ -28,7 +28,31 @@ This is an example of talking
 
 Player
 
-Really? 
+PickOption
+(T:That's nice Y:Dialog choice is cool!  U: You're bad!)
+NPC
+I know, right?!
+End
+
+
+
+
+
+
+
+NPC
+It is, isn't it?!
+End 
+
+
+
+
+
+
+
+NPC
+You're mean!
+End
 Cool.
 
 End

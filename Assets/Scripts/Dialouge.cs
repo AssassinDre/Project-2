@@ -14,6 +14,8 @@ public class Dialouge : MonoBehaviour {
 	bool check = true;
 	string npcName;
 
+	bool option2 = false, option3 = false, choice = false;
+
 
 	string tag;
 	// Use this for initialization
@@ -31,6 +33,7 @@ public class Dialouge : MonoBehaviour {
 
 	void OnGUI()
 	{
+		GUI.skin.box.wordWrap = true;
 		if (npcTalk) {
 			GUI.Box (new Rect (Screen.width - 300, Screen.height - 100, 300, 100), textDisplayed);
 			GUI.Box (new Rect (Screen.width - 150, Screen.height - 150, 150, 50), npcName);
@@ -116,9 +119,14 @@ public class Dialouge : MonoBehaviour {
 	{
 		string temp;
 		while (true) {
+			choice = false;
+			option2 = false;
+			option3 = false;
 			line++;
 			temp = dialogLines [line];
 			//print ("TEMP:" + temp);
+			print (temp);
+
 			if (temp.Contains ("Player"))
 			{
 
@@ -143,11 +151,23 @@ public class Dialouge : MonoBehaviour {
 				PlayerMove2.isPaused = false;
 				return true;
 			}
+			if (temp.Contains ("PickOption"))
+			{
+				choice = true;
+				line++;
+				temp = dialogLines [line];
+				print ("TEMP:" + temp);
+			}
 			textDisplayed = temp;
 			//StartCoroutine(MyCoroutine());
 			yield return new WaitForSeconds(0.5f);
 			yield return StartCoroutine (WaitForKeyPress ("space"));
 			_keyPressed = false;
+			if (choice)
+			{
+				if (option2) line = line + 10;
+				if (option3) line = line + 20;
+			}
 			//Debug.Log ("Proceed2");
 		}
 
@@ -162,6 +182,20 @@ public class Dialouge : MonoBehaviour {
 			if(Input.GetKeyDown(KeyCode.T))
 			{
 				_keyPressed = true;
+				//print("Pressed.");
+				break;
+			}
+			if(Input.GetKeyDown(KeyCode.Y))
+			{
+				_keyPressed = true;
+				option2 = true;
+				//print("Pressed.");
+				break;
+			}
+			if(Input.GetKeyDown(KeyCode.U))
+			{
+				_keyPressed = true;
+				option3 = true;
 				//print("Pressed.");
 				break;
 			}
