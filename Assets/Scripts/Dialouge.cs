@@ -11,6 +11,8 @@ public class Dialouge : MonoBehaviour {
 	public TextAsset textFile;
 	string[] dialogLines;
 	string textDisplayed;
+	bool check = true;
+	string npcName;
 
 
 	string tag;
@@ -29,8 +31,14 @@ public class Dialouge : MonoBehaviour {
 
 	void OnGUI()
 	{
-		if (npcTalk) GUI.Box(new Rect(Screen.width-300, Screen.height-100, 300, 100), textDisplayed);
-		if (playerTalk) GUI.Box(new Rect(0, Screen.height-100, 300, 100), textDisplayed);
+		if (npcTalk) {
+			GUI.Box (new Rect (Screen.width - 300, Screen.height - 100, 300, 100), textDisplayed);
+			GUI.Box (new Rect (Screen.width - 150, Screen.height - 150, 150, 50), npcName);
+		}
+		if (playerTalk) {
+			GUI.Box (new Rect (0, Screen.height - 100, 300, 100), textDisplayed);
+			GUI.Box (new Rect (0, Screen.height - 150, 150, 50), "Player");
+		}
 	}
 	
 	void OnTriggerEnter(Collider other) {
@@ -50,10 +58,11 @@ public class Dialouge : MonoBehaviour {
 			checkFile(tag);
 		}
 
-		if (PlayerMove2.collected) {
+		if (PlayerMove2.collected && check) {
 			GameObject Text2 = GameObject.FindWithTag("Text2");
-			Text2.tag = tag + "A";
+			Text2.tag = Text2.tag + "A";
 			print (Text2.tag);
+			check = false;
 		}
 	}
 
@@ -82,14 +91,19 @@ public class Dialouge : MonoBehaviour {
 		string temp = dialogLines [line+1];
 		Debug.Log(temp);
 		if (temp.Contains ("NPC")) {
+			temp = dialogLines [line];
+			npcName = temp;
 			npcTalk = true;
 			//Debug.Log("Proceed1");
 			StartCoroutine(npcTalking (line));
 		}
-		if (temp.Equals("Player"))
+		if (temp.Contains("Player"))
 		    {
-			playerTalk = true;
-			playerTalking(line);
+			temp = dialogLines [line];
+			npcName = temp;
+			StartCoroutine(npcTalking (line));
+			//playerTalk = true;
+			//playerTalking(line);
 		}
 		if (temp.Equals("End")){
 	
@@ -107,6 +121,7 @@ public class Dialouge : MonoBehaviour {
 			//print ("TEMP:" + temp);
 			if (temp.Contains ("Player"))
 			{
+
 				playerTalk = true;
 				npcTalk=false;
 				line++;
@@ -116,6 +131,7 @@ public class Dialouge : MonoBehaviour {
 			{
 				playerTalk = false;
 				npcTalk= true;
+
 				line++;
 				temp = dialogLines [line];
 			}
@@ -129,7 +145,7 @@ public class Dialouge : MonoBehaviour {
 			}
 			textDisplayed = temp;
 			//StartCoroutine(MyCoroutine());
-			yield return new WaitForSeconds(1);
+			yield return new WaitForSeconds(0.5f);
 			yield return StartCoroutine (WaitForKeyPress ("space"));
 			_keyPressed = false;
 			//Debug.Log ("Proceed2");

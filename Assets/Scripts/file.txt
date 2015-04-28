@@ -1,9 +1,19 @@
+Text3
+Player
+Um, hello.  Where am I?
+NPC
+Not important.
+Just try to go find the key so you can leave.
+Player
+... Okay?
+End
 Text2A
 
 NPC
 
-You Changed this text!
-
+You found it!
+Good job.
+You can go now
 Player
 
 Awesome
@@ -25,13 +35,12 @@ End
 
 Text2
 
-NPC
-
-This is another example!
-
 Player
-
-Even cooler.
-
+Do you know where I can leave?
+NPC
+Find the key
+Then I'll let you go
+Player
+Ugh
 End
 
