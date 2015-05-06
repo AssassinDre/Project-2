@@ -18,8 +18,11 @@ public class Dialouge : MonoBehaviour {
 
 
 	string tag;
-	// Use this for initialization
+
+
 	void Start () {
+
+		//Records player position, and transfers speech data from file to array
 		pos = transform.position;
 		string text = textFile.text;
 		if(textFile != null)
@@ -43,24 +46,39 @@ public class Dialouge : MonoBehaviour {
 			GUI.Box (new Rect (0, Screen.height - 150, 150, 50), "Player");
 		}
 	}
+
+
+	//When you approach an NPC collider, the talk variable is set to true
+	//And that NPC's tag is recorded
 	
 	void OnTriggerEnter(Collider other) {
 		tag = other.tag;
 		talk = true;
 	}
 
+	//When you leave, talk is set to false
+
 	void OnTriggerExit(Collider other)
 	{
 		talk = false;
 	}
 	
-	// Update is called once per frame
+	//The tag is then used in the checkFile method to see who we are talking to
 	void Update () {
+
 		if (Input.GetKey (KeyCode.W) && talk){
 			print(tag);
 			checkFile(tag);
 		}
 
+
+		//Example of how this system has NPC's display alternate dialog.
+		//If a certain condition is met (in this case, a collectable in the move class is collected)
+		//Then the code will search for the tag of the NPC whoose dialog changes
+		//And then changes the tag
+		//Due to the way the dialog system works, this will change what the NPC says
+		//Reasonably elegant and efficient, if a bit hard-code-y
+		//The check variable is present so this change only happens once, and not over and over
 		if (PlayerMove2.collected && check) {
 			GameObject Text2 = GameObject.FindWithTag("Text2");
 			Text2.tag = Text2.tag + "A";
@@ -71,13 +89,14 @@ public class Dialouge : MonoBehaviour {
 
 	void checkFile(string start)
 	{
-
+		//Start at the beginning of the file
 		int length = dialogLines.GetLength(0);
-		//print (length);
+
 		for (int i = 0; i < length; ++i) {
+			//Search through the file, and when the tag variable of the NPC you are interacting with matches the line
 			string temp = dialogLines[i];
-			//Debug.Log(temp.Equals(tag));
-			//print(temp);
+
+			//Halt player movement, set relevant variables, and read the dialog
 			if (temp.Equals(tag))
 			{
 				PlayerMove2.isPaused = true;
@@ -92,11 +111,14 @@ public class Dialouge : MonoBehaviour {
 	void readDialog(int line)
 	{
 		string temp = dialogLines [line+1];
-		Debug.Log(temp);
+		//Debug.Log(temp);
+
+		//Depending on who is talking first, the relevant dialog box is displayed
+		//In both cases, starts the dialog coroutine
 		if (temp.Contains ("NPC")) {
 			temp = dialogLines [line];
 			npcName = temp;
-			npcTalk = true;
+			//npcTalk = true;
 			//Debug.Log("Proceed1");
 			StartCoroutine(npcTalking (line));
 		}
@@ -108,11 +130,6 @@ public class Dialouge : MonoBehaviour {
 			//playerTalk = true;
 			//playerTalking(line);
 		}
-		if (temp.Equals("End")){
-	
-		}
-
-
 	}
 
 	IEnumerator npcTalking(int line)
@@ -125,8 +142,10 @@ public class Dialouge : MonoBehaviour {
 			line++;
 			temp = dialogLines [line];
 			//print ("TEMP:" + temp);
-			print (temp);
+			//print (temp);
 
+			//Bool variables display relevant dialog boxes depending on who is talking
+			//Then fetches the first line of dialog from that character
 			if (temp.Contains ("Player"))
 			{
 
@@ -139,10 +158,11 @@ public class Dialouge : MonoBehaviour {
 			{
 				playerTalk = false;
 				npcTalk= true;
-
 				line++;
 				temp = dialogLines [line];
 			}
+
+			//If file reads end, ends the conversation
 			if (temp.Contains ("End"))
 			{
 				playerTalk = false;
@@ -151,6 +171,8 @@ public class Dialouge : MonoBehaviour {
 				PlayerMove2.isPaused = false;
 				return true;
 			}
+
+			//Leads into multiple dialog choice
 			if (temp.Contains ("PickOption"))
 			{
 				choice = true;
@@ -159,10 +181,17 @@ public class Dialouge : MonoBehaviour {
 				print ("TEMP:" + temp);
 			}
 			textDisplayed = temp;
-			//StartCoroutine(MyCoroutine());
+			//Waits so that dialog flows properly
 			yield return new WaitForSeconds(0.5f);
-			yield return StartCoroutine (WaitForKeyPress ("space"));
+			//And does not progress until player hits key
+			yield return StartCoroutine (WaitForKeyPress ());
 			_keyPressed = false;
+
+			//If a multiple dialog tree, goes through file to find the right dialog tree
+			//Was having issues with .equals, so using .contains
+			//Can have issues if we ever use the string of characters in it,
+			//But if so, we just change the delimiters
+			//Easy fix
 			if (choice)
 			{
 				if (option2)
@@ -201,7 +230,9 @@ public class Dialouge : MonoBehaviour {
 
 	bool _keyPressed = false;
 
-	public IEnumerator WaitForKeyPress(string _button)
+	//Waits for player to press key
+	//If a dialog choice, lets player pick choice
+	public IEnumerator WaitForKeyPress()
 	{
 		while(!_keyPressed)
 		{
@@ -231,7 +262,7 @@ public class Dialouge : MonoBehaviour {
 	}
 
 
-	IEnumerator playerTalking(int line)
+	/*IEnumerator playerTalking(int line)
 	{
 		string temp = dialogLines [line];
 		if (temp.Equals("npc")) playerTalking(line);
@@ -242,6 +273,6 @@ public class Dialouge : MonoBehaviour {
 		}
 
 		playerTalking (line);
-	}
+	}*/
 	
 }
