@@ -33,23 +33,11 @@ PickOption
 NPC
 I know, right?!
 End
-
-
-
-
-
-
-
+0100
 NPC
 It is, isn't it?!
 End 
-
-
-
-
-
-
-
+0010
 NPC
 You're mean!
 End

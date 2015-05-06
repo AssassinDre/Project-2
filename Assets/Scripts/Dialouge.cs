@@ -165,8 +165,34 @@ public class Dialouge : MonoBehaviour {
 			_keyPressed = false;
 			if (choice)
 			{
-				if (option2) line = line + 10;
-				if (option3) line = line + 20;
+				if (option2)
+				{
+					bool found = false;
+					while(!found)
+					{
+						line++;
+						if (dialogLines[line].Contains("010")) 
+						{
+							found = true;
+							//line++;
+						}
+					}
+					//line = line + 10;
+				}
+				if (option3)
+				{
+					bool found = false;
+					while(!found)
+					{
+						line++;
+						if (dialogLines[line].Contains("001")) 
+						{
+							found = true;
+							//line++;
+						}
+					}
+					//line = line + 10;
+				}
 			}
 			//Debug.Log ("Proceed2");
 		}
