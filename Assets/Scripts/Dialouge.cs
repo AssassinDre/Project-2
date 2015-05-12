@@ -41,6 +41,7 @@ public class Dialouge : MonoBehaviour {
 	void OnGUI()
 	{
 		GUI.skin.box.wordWrap = true;
+		GUI.skin.box.alignment = TextAnchor.UpperLeft;
 		if (npcTalk) {
 			GUI.Box (new Rect (Screen.width - 300, Screen.height - 100, 300, 100), textDisplayed);
 			GUI.Box (new Rect (Screen.width - 150, Screen.height - 150, 150, 50), npcName);
