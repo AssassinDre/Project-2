@@ -432,6 +432,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textFile: {fileID: 4900000, guid: 668ec0b189a12924fb9ca2db653a2fc0, type: 3}
+  letterPause: .00499999989
 --- !u!114 &572040135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1210,6 +1211,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textFile: {fileID: 0}
+  letterPause: .100000001
 --- !u!1 &1995497706
 GameObject:
   m_ObjectHideFlags: 0

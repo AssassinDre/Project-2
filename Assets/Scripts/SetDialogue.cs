@@ -9,8 +9,8 @@ public class SetDialogue : MonoBehaviour {
 	
 	void SetLines()
 	{
-		DialogBox.lines = lines;
-		DialogBox.lines2 = lines2;
+	//	DialogBox.lines = lines;
+	//	DialogBox.lines2 = lines2;
 		
 		//You decide when SetLines fires.  When it does, it will plug in the lines contained //inside it into DialogueBox.cs
 	}

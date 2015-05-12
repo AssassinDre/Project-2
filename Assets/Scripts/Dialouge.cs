@@ -14,6 +14,10 @@ public class Dialouge : MonoBehaviour {
 	bool check = true;
 	string npcName;
 
+	public float letterPause = 0.1f;
+
+	TypeText typeWriter;
+
 	bool option2 = false, option3 = false, choice = false;
 
 
@@ -180,7 +184,8 @@ public class Dialouge : MonoBehaviour {
 				temp = dialogLines [line];
 				print ("TEMP:" + temp);
 			}
-			textDisplayed = temp;
+							//	textDisplayed = temp;
+			yield return StartCoroutine(TypeHelper(temp, playerTalk, npcTalk, npcName));
 			//Waits so that dialog flows properly
 			yield return new WaitForSeconds(0.5f);
 			//And does not progress until player hits key
@@ -262,17 +267,25 @@ public class Dialouge : MonoBehaviour {
 	}
 
 
-	/*IEnumerator playerTalking(int line)
+	IEnumerator TypeHelper (string line, bool player, bool npc, string npcNm)  //responsible for printing each letter individually
 	{
-		string temp = dialogLines [line];
-		if (temp.Equals("npc")) playerTalking(line);
-		textDisplayed = temp;
-		while (!Input.GetKeyDown(KeyCode.Space))
+		textDisplayed = "";
+		npcTalk = npc;
+		playerTalk = player;
+		npcName = npcNm;
+		foreach (char letter in line.ToCharArray())
+			//the line referred to here is the same line referred to in DialogueBox.cs
 		{
-			yield return null;
+			//this entire foreach loop is responsible for printing the message string
+			//if (sound)
+			//	audio.PlayOneShot (sound); 
+			//for example, a typewriter sound, set in editor
+			textDisplayed = textDisplayed + letter;
+			//yield return 0;
+			yield return new WaitForSeconds (letterPause); 
+			//speed of printing, set in editor
 		}
+	}	
 
-		playerTalking (line);
-	}*/
 	
 }

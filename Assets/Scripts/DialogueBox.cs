@@ -20,8 +20,8 @@ public class DialogueBox : MonoBehaviour {
 		{
 			if (Input.GetKeyUp(KeyCode.X)) //in this case, the X key begins dialogue
 			{
-				typeText.guiText.text = ""; //clears first line
-				typeText2.guiText.text = ""; //clears second line
+			//	typeText.guiText.text = ""; //clears first line
+			//	typeText2.guiText.text = ""; //clears second line
 				
 				if(i < lines.Length) //if there are still more lines to be printed
 				{
@@ -40,15 +40,15 @@ public class DialogueBox : MonoBehaviour {
 	}
 	public void printLines(string[] lines, string[] lines2)
 	{
-		TypeText.line = lines[i];  //assigns lines to first line
+	//	TypeText.line = lines[i];  //assigns lines to first line
 		//refers to TypeText.cs which is responsible for printing the first line
 		
-		TypeText2.line = lines2[i];  //assign lines2 to second line
+	//	TypeText2.line = lines2[i];  //assign lines2 to second line
 		//refers to TypeText.cs which is responsible for printing the second line
 		
-		TypeText.Type();  //prints first line
-		TypeText2.Type();  //prints second line, currently fires at same time as first line
-		
+	//	TypeText.Type();  //prints first line
+	//	TypeText2.Type();  //prints second line, currently fires at same time as first line
+	//	
 		if (i < lines.Length)
 		{
 			i++;
