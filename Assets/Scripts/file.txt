@@ -8,26 +8,18 @@ Player
 ... Okay?
 End
 Text2A
-
 NPC
-
 You found it!
 Good job.
 You can go now
 Player
-
 Awesome
-
 End
 Text1
-
 NPC
-
 Hello!  
 This is an example of talking
-
 Player
-
 PickOption
 (T:That's nice Y:Dialog choice is cool!  U: You're bad!)
 NPC
@@ -42,11 +34,8 @@ NPC
 You're mean!
 End
 Cool.
-
 End
-
 Text2
-
 Player
 Do you know where I can leave?
 NPC

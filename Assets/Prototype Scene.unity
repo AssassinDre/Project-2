@@ -432,6 +432,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textFile: {fileID: 4900000, guid: c6d9c666b2d39b840a008c2103df6bfd, type: 3}
   letterPause: .00499999989
+  talkBox: {fileID: 11400000, guid: 860f8b478823b8b40a6b549c0746fcc8, type: 2}
+  nameBox: {fileID: 11400000, guid: 6b1b2e40413704f43ac382b58982474b, type: 2}
 --- !u!114 &572040135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1209,6 +1211,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textFile: {fileID: 0}
   letterPause: .100000001
+  talkBox: {fileID: 0}
+  nameBox: {fileID: 0}
 --- !u!1 &1995497706
 GameObject:
   m_ObjectHideFlags: 0

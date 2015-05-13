@@ -20,10 +20,11 @@ public class Dialouge : MonoBehaviour {
 
 	bool option2 = false, option3 = false, choice = false;
 
-
 	string tag;
 
-
+	public GUISkin talkBox = null;
+	public GUISkin nameBox = null;
+	
 	void Start () {
 
 		//Records player position, and transfers speech data from file to array
@@ -40,15 +41,20 @@ public class Dialouge : MonoBehaviour {
 
 	void OnGUI()
 	{
-		GUI.skin.box.wordWrap = true;
-		GUI.skin.box.alignment = TextAnchor.UpperLeft;
+
 		if (npcTalk) {
-			GUI.Box (new Rect (Screen.width - 300, Screen.height - 100, 300, 100), textDisplayed);
-			GUI.Box (new Rect (Screen.width - 150, Screen.height - 150, 150, 50), npcName);
+			GUI.Box(new Rect(0, 0, Screen.width, Screen.height), "");
+			GUI.skin = talkBox;
+			GUI.Box (new Rect (0, Screen.height - Screen.height/4, Screen.width - Screen.width/5, Screen.height - Screen.height/5), textDisplayed);
+			GUI.skin = nameBox;
+			GUI.Box (new Rect ((Screen.width - Screen.width/5)-300, (Screen.height - Screen.height/4 - 75), 300, 75), npcName);
 		}
 		if (playerTalk) {
-			GUI.Box (new Rect (0, Screen.height - 100, 300, 100), textDisplayed);
-			GUI.Box (new Rect (0, Screen.height - 150, 150, 50), "Player");
+			GUI.Box(new Rect(0, 0, Screen.width, Screen.height), "");
+			GUI.skin = talkBox;
+			GUI.Box (new Rect (Screen.width/5, Screen.height - Screen.height/4, Screen.width - Screen.width/5, Screen.height - Screen.height/5), textDisplayed);
+			GUI.skin = nameBox;
+			GUI.Box (new Rect (Screen.width/5, Screen.height - Screen.height/4 - 75, 300, 75), "Player");
 		}
 	}
 
