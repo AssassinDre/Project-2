@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlayerMove2 : MonoBehaviour {
+public class PlayerMoveAnimated : MonoBehaviour {
 
 	static public bool isPaused = false;
 	private Vector2 pos;
@@ -19,7 +19,7 @@ public class PlayerMove2 : MonoBehaviour {
 	void Start () {
 		pos = transform.position;
 		doorMove = new DoorMove ();
-		//animator = this.GetComponent<Animator> ();
+		animator = this.GetComponent<Animator> ();
 	}
 
 	void OnGUI()
@@ -101,18 +101,18 @@ public class PlayerMove2 : MonoBehaviour {
 			if (Input.GetKey (KeyCode.D) || Input.GetKeyDown (KeyCode.RightArrow)) {
 				//Debug.Log ("Acitavated");
 				transform.position += Vector3.right * speed * Time.deltaTime;
-//				animator.SetBool("HoldRight",true);
-//				animator.SetBool("Right",true);
-//				animator.SetBool("HoldLeft",false);
-//				animator.SetBool("Left",false);
+				animator.SetBool("HoldRight",true);
+				animator.SetBool("Right",true);
+				animator.SetBool("HoldLeft",false);
+				animator.SetBool("Left",false);
 			}
 			// For left, we have to subtract the direction
 			else if (Input.GetKey (KeyCode.A) || Input.GetKeyDown (KeyCode.LeftArrow)) {
 				transform.position -= Vector3.right * speed * Time.deltaTime;
-				//animator.SetBool("HoldLeft",true);
-				//animator.SetBool("Left",true);
-				//animator.SetBool("HoldRight",false);
-				//animator.SetBool("Right",false);
+				animator.SetBool("HoldLeft",true);
+				animator.SetBool("Left",true);
+				animator.SetBool("HoldRight",false);
+				animator.SetBool("Right",false);
 			}
 			else if (Input.GetKey (KeyCode.W) || Input.GetKeyDown (KeyCode.UpArrow)) {
 				if (moving == true)
@@ -127,11 +127,11 @@ public class PlayerMove2 : MonoBehaviour {
 			else if (Input.GetKey (KeyCode.S) || Input.GetKeyDown (KeyCode.DownArrow)) {
 				
 			}else if (Input.GetKeyUp (KeyCode.D) || Input.GetKeyUp (KeyCode.RightArrow)) {
-				//animator.SetBool("HoldRight",false);
+				animator.SetBool("HoldRight",false);
 			}
 			// For left, we have to subtract the direction
 			else if (Input.GetKeyUp (KeyCode.A) || Input.GetKeyUp (KeyCode.LeftArrow)) {
-				//animator.SetBool("HoldLeft",false);
+				animator.SetBool("HoldLeft",false);
 
 			}
 		}

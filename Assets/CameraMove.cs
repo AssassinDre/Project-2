@@ -7,7 +7,7 @@ public class CameraMove : MonoBehaviour {
 	public Vector3 offset;
 	// Use this for initialization
 	void Start () {
-		offset = new Vector3(0f, 0f, -20f);
+		offset = new Vector3(0f, 1.15f, -20f);
 	}
 	
 	// Update is called once per frame
