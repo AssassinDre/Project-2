@@ -140,7 +140,7 @@ GameObject:
   - 114: {fileID: 48547789}
   - 114: {fileID: 48547788}
   m_Layer: 0
-  m_Name: Player
+  m_Name: Hunter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -265,8 +265,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638ce49ebf424374d8989b63788e2ae0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textFile: {fileID: 4900000, guid: c6d9c666b2d39b840a008c2103df6bfd, type: 3}
-  letterPause: .100000001
+  textFile: {fileID: 4900000, guid: 300204992b00e954fa28be92f6ba1ab4, type: 3}
+  letterPause: .0199999996
   talkBox: {fileID: 11400000, guid: 860f8b478823b8b40a6b549c0746fcc8, type: 2}
   nameBox: {fileID: 11400000, guid: 6b1b2e40413704f43ac382b58982474b, type: 2}
 --- !u!1 &73395779
@@ -279,8 +279,8 @@ GameObject:
   - 4: {fileID: 73395781}
   - 65: {fileID: 73395780}
   m_Layer: 0
-  m_Name: TextPatron
-  m_TagString: Text1
+  m_Name: Scruffy Man
+  m_TagString: Scruffy Man
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -369,8 +369,8 @@ GameObject:
   - 4: {fileID: 924099521}
   - 65: {fileID: 924099520}
   m_Layer: 0
-  m_Name: TextBartender
-  m_TagString: Text3
+  m_Name: Bartender
+  m_TagString: Bartender
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -437,6 +437,18 @@ Prefab:
     - target: {fileID: 400000, guid: 2b3e4c2d28cb96844a9a2c85ede6f2ec, type: 2}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400004, guid: 2b3e4c2d28cb96844a9a2c85ede6f2ec, type: 2}
+      propertyPath: textFile
+      value: 
+      objectReference: {fileID: 4900000, guid: 300204992b00e954fa28be92f6ba1ab4, type: 3}
+    - target: {fileID: 11400004, guid: 2b3e4c2d28cb96844a9a2c85ede6f2ec, type: 2}
+      propertyPath: letterPause
+      value: .0199999996
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2b3e4c2d28cb96844a9a2c85ede6f2ec, type: 2}
+      propertyPath: m_Name
+      value: Hunter
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b3e4c2d28cb96844a9a2c85ede6f2ec, type: 2}

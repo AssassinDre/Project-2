@@ -54,7 +54,7 @@ public class Dialouge : MonoBehaviour {
 			GUI.skin = talkBox;
 			GUI.Box (new Rect (Screen.width/5, Screen.height - Screen.height/4, Screen.width - Screen.width/5, Screen.height - Screen.height/5), textDisplayed);
 			GUI.skin = nameBox;
-			GUI.Box (new Rect (Screen.width/5, Screen.height - Screen.height/4 - 75, 300, 75), "Player");
+			GUI.Box (new Rect (Screen.width/5, Screen.height - Screen.height/4 - 75, 300, 75), "Hunter");
 		}
 	}
 
@@ -126,14 +126,14 @@ public class Dialouge : MonoBehaviour {
 
 		//Depending on who is talking first, the relevant dialog box is displayed
 		//In both cases, starts the dialog coroutine
-		if (temp.Contains ("NPC")) {
+		if (temp.Contains ("NPC") || temp.Contains("???") || temp.Contains("Bartend") || temp.Contains("Scruffy")) {
 			temp = dialogLines [line];
 			npcName = temp;
 			//npcTalk = true;
 			//Debug.Log("Proceed1");
 			StartCoroutine(npcTalking (line));
 		}
-		if (temp.Contains("Player"))
+		if (temp.Contains("Hunter"))
 		    {
 			temp = dialogLines [line];
 			npcName = temp;
@@ -157,7 +157,7 @@ public class Dialouge : MonoBehaviour {
 
 			//Bool variables display relevant dialog boxes depending on who is talking
 			//Then fetches the first line of dialog from that character
-			if (temp.Contains ("Player"))
+			if (temp.Contains ("Hunter"))
 			{
 
 				playerTalk = true;
@@ -165,8 +165,7 @@ public class Dialouge : MonoBehaviour {
 				line++;
 				temp = dialogLines [line];
 			}
-			if (temp.Contains ("NPC"))
-			{
+			if (temp.Contains ("NPC") || temp.Contains("???") || temp.Contains("Bartend") || temp.Contains("Scruffy")) {
 				playerTalk = false;
 				npcTalk= true;
 				line++;
@@ -212,7 +211,7 @@ public class Dialouge : MonoBehaviour {
 					while(!found)
 					{
 						line++;
-						if (dialogLines[line].Contains("010")) 
+						if (dialogLines[line].Contains("0100")) 
 						{
 							found = true;
 							//line++;
@@ -226,7 +225,7 @@ public class Dialouge : MonoBehaviour {
 					while(!found)
 					{
 						line++;
-						if (dialogLines[line].Contains("001")) 
+						if (dialogLines[line].Contains("0010")) 
 						{
 							found = true;
 							//line++;

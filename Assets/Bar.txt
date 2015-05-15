@@ -1,0 +1,89 @@
+Automatic
+Hunter
+Never gets old. The lack of info doesn't sit well with me, but it's worth it.
+Hunter
+This kid is supposedly involved with a gang and a murder. That's all I have to go off of for now.
+Hunter
+I guess I might as well take a look around here and see what I can find. 
+End
+Bartender
+Bartend
+What can I getcha hon? (t)
+Hunter
+I'm looking for some information. Maybe you can help me.(t)
+Bartend
+That'll depend on what it is you're askin' about. (t)
+Hunter
+PickOption
+(t:Can you tell me about gang activity around here? y:What can you tell me about the recent murder report?)
+Bartend
+Gangs huh? Don't know too much about that. Once and a while someone talks about someone getting killed. But I keep out of it.(t)
+Hunter
+Ever talked to one of the members? (t)
+Bartend
+Can't say that I have. Why the interest? You a cop or something? (t)
+Hunter
+Look, if you don't have any info, I'll be on my way. (t)
+Bartend
+Watch the attitude, honey. I can't tell you much else, but you might wanna snoop around the alley out back. The people who hang around there tend to be more in the know. (t)
+Hunter
+I'll do that, thanks. (t)
+End
+0100
+Bartend
+Oh, you mean that man on the news? I heard he was involved in some black market dealing. Imagine. He seemed like a nice fellow too. (t)
+Hunter
+You knew him? (t)
+Bartend
+Not personally. He stopped in for a drink every now and again. Never stopped to talk to him though. Too many people are dyin' in this city. (t)
+Hunter
+Anywhere I can find more info about him? (t)
+Bartend
+I did hear him mention meeting somone in the alley around back a while ago. If you can find anyone there, they might give you something. (t)
+Hunter
+Got it. Thanks for the tip. (t)
+End
+Scruffy Man
+Hunter
+Excuse me, can I ask you some questions? (t)
+Scruffy
+H-Huh? Are you a cop? (t)
+PickOption
+(t:Yeah, I'm a cop. y: No, I'm not. Just answer my questions.)
+Scruffy
+I'm sorry! I'll answer, I promise! (t)
+Hunter
+Do you know anything about the gangs in the area? (t)
+Scruffy
+Gangs? N-No sir. (t)
+Hunter
+You're not lying to me? (t)
+Scruffy
+Of course not! I wouldn't lie, I swear! I stay far away from stuff like that. (t)
+Hunter
+And you wouldn't know where I can find someone who knows? (t)
+Scruffy
+No sir. (t)
+Hunter
+Useless punk. (t)
+End
+0100
+Scruffy
+You swear? (t)
+Hunter
+I swear. Now answer me. Do you know anything about gangs in this area? (t)
+Scruffy
+Gangs, sir? I'm not in any gangs. A buddy of mine used to be, but I wouldn't... (t)
+Hunter
+Go on. (t)
+Scruffy
+He's not with 'em any more! Said something about their rules being too strict. He didn't like the way they were operating. (t)
+Scruffy
+Something about it being too dangerous. He was worried he'd get killed. (t)
+Hunter
+Did he tell you anything else? (t)
+Scruffy
+N-No sir. He wouldn't say. That's all I know, I'm sorry! (t)
+Hunter
+You can stop apologizing. That's all I wanted, go back to your drink. (t)
+End
