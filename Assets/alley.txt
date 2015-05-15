@@ -1,0 +1,127 @@
+Boy
+NPC
+Hey, what are you doing wandering around here? This isn't a place for normal people!
+Hunter
+Me? This is no place for kids to be hanging about.
+NPC
+Hah! I'm not a kid, you don't have to worry about me.
+Hunter
+Normally, I'd be concerned if I wasn't in the middle of an investigation.
+NPC
+Investigation?! That's so cool! Are you a detective mister? Do you have a badge? And a real gun? Can I see it?
+Hunter
+Calm down, I'm not showing you my gun. But I'll show you this. Do you know the kid in this picture?
+NPC
+Hey! Where'd you get that?!
+Hunter
+That's the person I'm investigating.
+NPC
+That's a piture of my friend!
+Hunter
+Your what? You know this kid?
+NPC
+Of Course! We usually play here every day... But I haven't seen her since last week. Do you know what happened, mister?
+Hunter
+Did your friend say anything weird to you last week?
+NPC
+Just that she was going to bring me something special because she was going to prove herself. She was going to get a special tattoo.
+Hunter
+A tattoo huh?
+NPC
+Yeah, the strong members of all the gangs have one.
+Hunter
+Did she say how she was going to get this tattoo?
+NPC
+I asked, but she wouldn't tell me. She talked about the club down the street, but that's it. Are you going to find my friend? She didn't do anything bad, right?
+Hunter
+PickOption
+(t: We don't know for sure. y: I'm sure she's fine.)
+Hunter
+It's likely your friend is involved with something very bad, kid.
+NPC
+No, she'd never! She's a good person. She takes care of her mom. And plays with me. She's really strong!
+Hunter
+Good or not, it's not for me to decide. 
+End
+0100
+NPC
+I hope so. I miss her.
+End
+Angry Girl
+Hunter
+Excuse me, I'd like to ask you some questions.
+NPC
+Huh? Who the hell are you? Reporter?
+Hunter
+Something like that. Now if you-
+NPC
+Ugh, stay away from me, creep. I don't have to answer your questions.
+Hunter
+I don't think I have anything I can use to convince her to talk to me...
+End
+Girl
+Hunter
+Excuse me, I'd like to ask you some questions.
+NPC
+Huh? Who the hell are you? Reporter?
+Hunter
+Something like that. I want to know if you know anything about this newspaper article.
+NPC
+That's- I mean, I don't know anything about that article.
+Hunter
+Oh? And I assume you know nothing about the man who died either.
+NPC
+Nope. Never heard of him in my life.
+PickOption
+(t: I see. Sorry to bother you. y: That's a shame, isn't it?)
+NPC
+Right, no problem. 
+0100
+Hunter
+The guy probably deserved what he got in the end anyways. But it's not my problem.
+NPC
+He did not!
+Hunter
+No?
+NPC
+I mean. Arg, fine! I know the guy... Knew the guy, ok. Are you happy?
+Hunter
+Not until you tell me more.
+NPC
+We got along. He took me places, paid for dinner. Told me about his work, selling things to people, real important people. He was real cool like that.
+Hunter
+PickOption
+(t:Were you dating or something? y:Did you go anywhere else with the guy?)
+NPC
+Are you out of your mind?
+Hunter
+I'm just asking.
+NPC
+That's private. Although, he did let me stay over in his hotel room sometimes. I think he lived there, I swear. 
+Hunter
+Where is this hotel?
+NPC
+Hey, are you... going to find the person who killed him? Bring them to justice and all that?
+Hunter
+If that's what's at the end of my search, then yes.
+NPC
+Here, I'll give you this, it's the address to his hotel room. I'm sure it's open for people like you to investigate.
+Hunter
+Thanks, it's appreciated.
+End
+0100
+NPC
+Besides resteraunts? We took walks through the streets sometimes. And he let me stay at his hotel a few times when I was too tipsy to go home myself.
+NPC
+I think he lived in that hotel room. Makes me kind of sad thiking we won't be going back there anymore.
+Hunter
+This hotel, where is it?
+NPC
+Hey, are you... going to find the person who killed him? You're a reporter or something like that right?
+Hunter
+If that's what's at the end of my search, then yes.
+NPC
+Here, I'll give you this, it's the address to his hotel room. I'm sure it's open for people like you to investigate.
+Hunter
+Thanks, it's appreciated
+End
