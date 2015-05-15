@@ -6,10 +6,10 @@ public class PlayerMoveAnimated : MonoBehaviour {
 	static public bool isPaused = false;
 	private Vector2 pos;
 	public float speed = 1f;
-	DoorMove doorMove;
-	public GameObject Door1A, Door1B, Door2A, Door2B;
+	//DoorMove doorMove;
+	//public GameObject Door1A, Door1B, Door2A, Door2B;
 	public bool moving = false;
-	bool door = false;
+	//bool door = false;
 	bool displayInven = false;
 	static public bool collected = false;
 	public Texture2D dummyInventory;
@@ -18,7 +18,7 @@ public class PlayerMoveAnimated : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		pos = transform.position;
-		doorMove = new DoorMove ();
+		//doorMove = new DoorMove ();
 		animator = this.GetComponent<Animator> ();
 	}
 
@@ -60,26 +60,26 @@ public class PlayerMoveAnimated : MonoBehaviour {
 	}
 
 	void OnTriggerStay(Collider other) {
-		if (other.gameObject.tag == "Door1A" && door == true) {
-			transform.position = Door1B.transform.position;
-		}
-
-		if (other.gameObject.tag == "Door1B" && door == true) {
-			transform.position = Door1A.transform.position;
-		}
-
-		if (other.gameObject.tag == "Door2A" && door == true) {
-			transform.position = Door2B.transform.position;
-		}
-		
-		if (other.gameObject.tag == "Door2B" && door == true) {
-			transform.position = Door2A.transform.position;
-		}
+		//if (other.gameObject.tag == "Door1A" && door == true) {
+//			transform.position = Door1B.transform.position;
+//		}
+//
+//		if (other.gameObject.tag == "Door1B" && door == true) {
+//			transform.position = Door1A.transform.position;
+//		}
+//
+//		if (other.gameObject.tag == "Door2A" && door == true) {
+//			transform.position = Door2B.transform.position;
+//		}
+//		
+//		if (other.gameObject.tag == "Door2B" && door == true) {
+//			transform.position = Door2A.transform.position;
+//		}
 	}
 
 	void OnTriggerExit(){
 		moving = false ;
-		door = false;
+		//door = false;
 	}
 
 	
@@ -117,7 +117,7 @@ public class PlayerMoveAnimated : MonoBehaviour {
 			else if (Input.GetKey (KeyCode.W) || Input.GetKeyDown (KeyCode.UpArrow)) {
 				if (moving == true)
 				{
-					door = true;
+					//door = true;
 					//Debug.Log ("Worked");
 				}
 
