@@ -1,0 +1,66 @@
+Dancer
+NPC
+Hey there. Not many people come by here before the sun sets. What can I do for you?
+Hunter
+I'd like to ask some questions.
+NPC
+Alright, shoot. I got some time to spare.
+PickOption
+(t:About the kid in this picture... y:About the recent murder report...)
+NPC
+Oh. Isn't that the kid who was here the other day?
+Hunter
+You tell me.
+NPC
+I swear it was. We don't get a lot of children here. Didn't stay for too long though. She left with a middle aged gentleman who'd been here for a while."
+Hunter
+With a man?
+NPC
+If I remember correctly, yes. They had a pretty heated exchange and then left. Couldn't tell you what they were talking about though. They were out of earshot.
+Hunter
+I see. Apparently this kid is involved with the local gangs. I wonder if it has something to do with it.
+NPC
+Huh, if they're involved, then it's no wonder things are messy.
+Hunter
+Do you have something against them?
+NPC
+Nothing good comes of people like that. If that kid was involved, I feel bad for the man who left with her.
+NPC
+There's no trusting those people. They'll slit your throat when you're not looking.
+Hunter
+Aren't you going a bit far?
+NPC
+Ain't nothing happened to prove me wrong. I'd stay far away from gang activity if I were you.
+Hunter
+I'm afraid that's not an option. I go where the information leades me.
+NPC
+Well if you're lookin', try the streets downtown. I hear there was a murder around there recently. 
+NPC
+You might find some worthy sources of info. Don't say I didn't warn you though.
+End
+0100
+NPC
+Murder? Oh, you mean that case that's been on the news lately? I couldn't tell you much 'bout that.
+Hunter
+You've never seen him before?
+NPC
+People come in and out of here all the time. There comes a point when it's difficult to tell them apart.
+Hunter
+You must have noticed something strange within the past week.
+NPC
+Hmm When you put it that way, there was something. A man was here a few days ago. He caused a little stir. 
+NPC
+What I've heard is that he had an argument with someone over money matters. One of them refused to cough up the dough. My boss had to step in and calm them down.
+Hunter
+Do you remember who this man was or who he was arguing with?
+NPC
+They both looked like someone you wouldn't want to get on the bad side of. And one of them was much younger, I think.
+Hunter
+Anything else?
+NPC
+Not that I can remember. Hey, if you'relooking for leads on this murder thing, why don't you check the scene of the crime?
+Hunter
+That was the plan.
+NPC
+Just be careful. Don't say I didn't warn you.
+End
