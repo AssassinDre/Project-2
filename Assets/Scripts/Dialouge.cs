@@ -25,10 +25,14 @@ public class Dialouge : MonoBehaviour {
 
 	public GUISkin talkBox = null;
 	public GUISkin nameBox = null;
-	
+
+	bool force = false;
+
 	void Start () {
 
-		//Records player position, and transfers speech data from file to array
+		tag = Application.loadedLevelName;
+		checkFile (tag);
+		//Records player pos	ition, and transfers speech data from file to array
 		pos = transform.position;
 		string text = textFile.text;
 		if(textFile != null)
@@ -71,6 +75,12 @@ public class Dialouge : MonoBehaviour {
 	void OnTriggerEnter(Collider other) {
 		tag = other.tag;
 		talk = true;
+
+		if (tag.Contains("Force");
+		    {
+			force = true;
+			checkFile (tag);
+		}
 	}
 
 	//When you leave, talk is set to false
@@ -116,6 +126,7 @@ public class Dialouge : MonoBehaviour {
 			//Halt player movement, set relevant variables, and read the dialog
 			if (temp.Equals(tag))
 			{
+				PlayerMoveAnimated.canMove = false;
 				PlayerMove2.isPaused = true;
 				talking = true;
 				textDisplayed = temp;
@@ -185,6 +196,12 @@ public class Dialouge : MonoBehaviour {
 				npcTalk= false;
 				talking = false;
 				PlayerMove2.isPaused = false;
+				PlayerMoveAnimated.canMove = true;
+					if (force)
+					{
+						temp = dialogLines[line++];
+						if (!temp.Contains("None") Application.LoadLevel(temp);
+					}
 				return true;
 			}
 

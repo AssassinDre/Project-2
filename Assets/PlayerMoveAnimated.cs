@@ -14,6 +14,7 @@ public class PlayerMoveAnimated : MonoBehaviour {
 	static public bool collected = false;
 	public Texture2D dummyInventory;
 	private Animator animator;
+	public static bool canMove = true;
 	
 	// Use this for initialization
 	void Start () {
@@ -97,7 +98,7 @@ public class PlayerMoveAnimated : MonoBehaviour {
 			else if (displayInven == true) displayInven = false;
 		}
 
-		if (!isPaused) {
+		if (!isPaused && canMove) {
 			if (Input.GetKey (KeyCode.D) || Input.GetKeyDown (KeyCode.RightArrow)) {
 				//Debug.Log ("Acitavated");
 				transform.position += Vector3.right * speed * Time.deltaTime;
