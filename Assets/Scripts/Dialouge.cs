@@ -48,7 +48,7 @@ public class Dialouge : MonoBehaviour {
 			GUI.Box(new Rect(0, 0, Screen.width, Screen.height), "");
 			GUI.DrawTexture(new Rect(Screen.width-500, Screen.height - 576, 500, 576), render.mainTexture);
 			GUI.skin = talkBox;
-			GUI.Box (new Rect (0, Screen.height - Screen.height/4, Screen.width-500, Screen.height - Screen.height/5), textDisplayed);
+			GUI.Box (new Rect (0, Screen.height - Screen.height/4, Screen.width-500, Screen.height/4), textDisplayed);
 			GUI.skin = nameBox;
 			GUI.Box (new Rect (Screen.width - 800, (Screen.height - Screen.height/4 - 75), 300, 75), npcName);
 
@@ -58,7 +58,7 @@ public class Dialouge : MonoBehaviour {
 			GUI.Box(new Rect(0, 0, Screen.width, Screen.height), "");
 			GUI.DrawTexture(new Rect(0,Screen.height - 576, 500, 576), render.mainTexture);
 			GUI.skin = talkBox;
-			GUI.Box (new Rect (500, Screen.height - Screen.height/4, Screen.width-500, Screen.height - Screen.height/5), textDisplayed);
+			GUI.Box (new Rect (500, Screen.height - Screen.height/4, Screen.width-500, Screen.height/4), textDisplayed);
 			GUI.skin = nameBox;
 			GUI.Box (new Rect (500, Screen.height - Screen.height/4 - 75, 300, 75), "Hunter");
 		}
