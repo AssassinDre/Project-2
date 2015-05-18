@@ -1,8 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class NewBehaviourScript : MonoBehaviour {
-
+public class PlayerScore : MonoBehaviour {
+	public int score = 0;
+	int[] items;
+	public bool criticalMet;
 	// Use this for initialization
 	void Start () {
 	
@@ -12,4 +14,9 @@ public class NewBehaviourScript : MonoBehaviour {
 	void Update () {
 	
 	}
+
+	void Awake (){
+			DontDestroyOnLoad(gameObject);
+		}
+		
 }

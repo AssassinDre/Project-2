@@ -4,4 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/1.BarScene.unity
+  - enabled: 1
+    path: Assets/2.AlleyScene.unity
+  - enabled: 1
+    path: Assets/3a.HotelScene.unity
+  - enabled: 1
+    path: Assets/3b.ClubScene.unity
+  - enabled: 1
+    path: Assets/4.StreetScene.unity
+  - enabled: 1
+    path: Assets/5a.Hospital.unity
+  - enabled: 1
+    path: Assets/5b. Subway.unity
+  - enabled: 1
+    path: Assets/6.ApartmentScene.unity
