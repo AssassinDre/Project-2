@@ -7,6 +7,7 @@ Hunter.
 Yes, if you know anything, it would be a big help.
 NPC
 I see no reason to give you my story. I'm growing tired of repeating myself over and over.
+Hunter
 PickOption
 (t: Please. I'm looking for someone. y:I'll make it worth your while.)
 NPC
@@ -18,7 +19,9 @@ NPC
 Hunter
 Please tell me what you know.
 NPC
-I more than know, as I've been telling reporter after reporter. I was walking past here on the day it happened.
+I more than know, as I've been telling reporter after reporter. 
+NPC
+I was walking past here on the day it happened.
 Hunter
 You're a witness?
 NPC
@@ -50,7 +53,9 @@ People these days. They do not know how to make a decent living.
 Hunter
 You've seen such people before?
 NPC
-I've witnessed my fair share. Did you know the subways beneath town are crawling with them? It is despicable, honestly.
+I've witnessed my fair share. 
+NPC
+Did you know the subways beneath town are crawling with them? It is despicable, honestly.
 Hunter
 Rest assured, I'm not involved with anything like that.
 NPC
@@ -64,7 +69,9 @@ Hey, you. Are you one of those reporters?
 Hunter
 Me? No, I'm not.
 NPC
-That so? Good. I've been avoiding them all day. Finally stopped swarming the place to poke their noses some place else. 
+That so? Good. I've been avoiding them all day. 
+NPC
+Finally stopped swarming the place to poke their noses some place else. 
 Hunter
 Sounds like you have something to hide.
 NPC
@@ -82,11 +89,15 @@ A knife? You found this at the scene of the crime?
 NPC
 Yeah. A while back, before the police and reporters showed up. 
 NPC
-I've been holding on to it, but I couldn't work up the courage to turn it in. Do you think it's the murder weapon or something?
+I've been holding on to it, but I couldn't work up the courage to turn it in. 
+NPC
+Do you think it's the murder weapon or something?
 Hunter
 Hm. There's an insignia on the blade.
 NPC
-That's partly what's got me so worried. This insignia belongs to one of the gangs in the area. Holdin' on to something like this means trouble.
+That's partly what's got me so worried. This insignia belongs to one of the gangs in the area. 
+NPC
+Holdin' on to something like this means trouble.
 Hunter
 A gang symbol? You're sure?
 NPC
@@ -100,7 +111,9 @@ Sounds like trouble broke out.
 NPC
 Something about one of the members starting a fight. I don't know what it was over, but chaos broke out.
 NPC
-I feel for that member, if they're not already dead. Being on the bad end of a stick like that means you only have so long to live.
+I feel for that member, if they're not already dead. 
+NPC
+Being on the bad end of a stick like that means you only have so long to live.
 Hunter
 I hear you. I'll have to look into this more. Thanks for the tip.
 End

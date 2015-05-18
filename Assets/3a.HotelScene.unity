@@ -360,7 +360,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638ce49ebf424374d8989b63788e2ae0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textFile: {fileID: 4900000, guid: 483b667738a0d154c81074e15dd1d217, type: 3}
+  textFile: {fileID: 4900000, guid: f5860802e63e5504bac08835d2f3eded, type: 3}
   render: {fileID: 2100000, guid: 2b7a6b3d8d69e55468dc4dfe3f744885, type: 2}
   letterPause: .00999999978
   talkBox: {fileID: 11400000, guid: 860f8b478823b8b40a6b549c0746fcc8, type: 2}
@@ -515,7 +515,7 @@ Prefab:
     - target: {fileID: 11400004, guid: 2b3e4c2d28cb96844a9a2c85ede6f2ec, type: 2}
       propertyPath: textFile
       value: 
-      objectReference: {fileID: 4900000, guid: 483b667738a0d154c81074e15dd1d217, type: 3}
+      objectReference: {fileID: 4900000, guid: f5860802e63e5504bac08835d2f3eded, type: 3}
     - target: {fileID: 11400004, guid: 2b3e4c2d28cb96844a9a2c85ede6f2ec, type: 2}
       propertyPath: letterPause
       value: .00999999978

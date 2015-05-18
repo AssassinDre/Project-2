@@ -1,0 +1,58 @@
+Hospital
+Gang Member
+NPC
+Yeah, you called for me? What you want?
+Hunter
+I’m here to ask about one of your members. There’s someone who went missing not too long ago.
+NPC
+Oh. The hell you want with the kid? Find where she’s gone off to?
+Hunter
+It’s my job to find out. I was hoping you could point me in the right direction.
+NPC
+Remind me  why I’d want to help you.
+Hunter
+Because it seems like your gang has a problem with this kid, am I wrong?
+NPC
+Heh. Naw you’re on the money there old man. 
+Hunter 
+So, what’s the story?
+Member
+You really wanna know? There’s this man, see? He was doin’ business with us for some odd years.
+NPC
+But recently things have been, how would you say? Rocky. Between us. 
+NPC
+He wanted more than was due to him. Bit off more than he could chew. 
+NPC
+And hell, we’re all street trash tryin’ to scrape by. 
+NPC
+You’re dead wrong if you think we’re going to pawn off our livelihood to some scum just cause he gets a little greedy.
+Hunter
+So where does the kid come into the picture with all this?
+NPC
+We wanted the dude out of our hair. That kid was looking for something to make her name known. 
+NPC
+I told her she could take any extra cash she could find in his pockets. Give it to that sick mum of hers.  
+NPC
+Heck, you should have seen her eyes sparkle when I finally agreed to let her do it. 
+Hunter
+You sent in some kid as a hitman to take out someone you didn’t like?
+NPC
+Hey, man, she came beggin’ to me. Had a knife prepared and everything. 
+NPC
+Said it was the only way she could get by. How could I refuse that?
+Hunter
+And then? She didn’t agree with you afterwards?
+NPC
+Hah. Freakin’ ungrateful leech wanted to take everything. She was going to rat us out even. Pin the blame on me and my boys and get away scott free. 
+NPC
+We tried to reason with her, but she wouldn’t have it. 
+NPC
+We got into a scuffle  that turned into a brawl and lets just say not all of us got out without scratches. 
+Hunter
+No idea where she is now?
+Member
+Probably hidin’ out in some abandoned building. I heard she sleeps there. 
+NPC
+I wish I was out of this damn hospital so I could look for her myself.
+Hunter
+You leave that to me. Thanks for the tip. 

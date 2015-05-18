@@ -1,6 +1,7 @@
 Reporter
 NPC
 Excuse me, are you authorized to be here?
+Hunter
 PickOption
 (t:I'm a detective. I'm as authorized as you are. y:That's none of your business.)
 NPC
@@ -12,7 +13,9 @@ Yes sir, up and coming young reporter, that's me.
 Hunter
 Anything you can tell me about the victim?
 NPC
-There's not much dirt, unfortunately. He is said to be involved with some kind of underground market, but nobody knows if it's true or not.
+There's not much dirt, unfortunately. 
+NPC
+He is said to be involved with some kind of underground market, but nobody knows if it's true or not.
 Hunter
 So it's just a rumor?
 NPC
@@ -22,17 +25,23 @@ Any reason why he lives in a hotel?
 NPC
 It's not like the guy was poor. The hotel says he always paid his fees on time too.
 NPC
-Apparently he kept to himself. Not many people saw him around. Pretty lackluster if you ask me.
+Apparently he kept to himself. Not many people saw him around. 
+NPC
+Pretty lackluster if you ask me.
 Hunter
 That in itself seems suspicious. What about when he was killed?
 NPC
 Well, he left one afternoon and didn't come back. 
 NPC
-Though the old man next door said he heard him talkin' on the phone with someone. Said something about meeting up about a deal, I think.
+Though the old man next door said he heard him talkin' on the phone with someone. 
+NPC
+Said something about meeting up about a deal, I think.
 Hunter
 Do you know where?
 NPC
-I'd assume it would be the place he was found dead, no? I'll be there later to snoop out anything juicy if I can find it. 
+I'd assume it would be the place he was found dead, no?
+NPC
+I'll be there later to snoop out anything juicy if I can find it. 
 Hunter
 That sounds like my next stop then.
 End 
