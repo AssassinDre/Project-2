@@ -1,0 +1,91 @@
+Dealer
+NPC
+Hello there handsome. Beautiful evening, isn’t it?
+Hunter
+I know your type, don’t act innocent with me.
+NPC
+My, my, someone is forward. 
+NPC
+Well then, I’ll cut to the chase. What services may I provide for you tonight?
+Hunter
+I’m in need of information. 
+NPC
+Is that all? Whatever for?
+Hunter
+Does this ring any bells? I found it lying in the garbage in an alley.
+NPC
+You must be looking into the unfortunate man whose death seems to be all over the news these days. 
+Hunter
+Actually I’m looking into the person who killed him.
+NPC
+Oh? You found his killer? My, that was quick of you.
+Hunter
+Do you know something you’re not telling me?
+NPC
+A few things. I suppose since the sap’s gone and gotten himself dead, it won’t hurt to tell.
+NPC
+The substances contained once in that syringe are one of many things that the man who died helped us with.
+NPC
+He was our top seller, so it’s a little unfortunate to see him go, if you know what I mean.
+NPC
+He managed to strike it big with the leader of one of the local gangs. They had quite the partnership for some time
+Hunter
+Until?
+NPC
+Until the prices of products went up and the children didn’t want to pay. 
+NPC
+He knew they would come after him  so he prepared a pistol and a small case of bullets. 
+NPC
+But I must say that I did not expect things to turn out as they did. 
+Hunter
+For self defense?
+NPC
+Oh, no. He was never the self-defense sort. Quite the opposite.
+Hunter
+Point taken. Do you know any circumstances surrounding his death?
+NPC
+I wasn’t there of course..
+NPC
+But my sources tell me that somewhere there’s a young person holed up who might not be entirely innocent, nor entirely guilty.
+Hunter
+You know the location?
+NPC
+Try your luck with the abandoned buildings on the far side of town, dear. You might find something interesting
+
+Woman
+NPC
+Hello there handsome. Beautiful evening, isn’t it?
+Hunter
+I know your type, don’t act innocent with me.
+NPC
+My, my, someone is forward. 
+NPC
+Well then, I’ll cut to the chase. What services may I provide for you tonight?
+Hunter
+I’m in need of information. 
+NPC
+Is that all? Whatever for?
+Hunter
+I’m looking into someone potentially involved with a murder case.
+NPC
+Ah, that case. I know the one.
+Hunter
+You’ll be able to tell me something then.
+NPC
+Well, I suppose I know a little. The poor fellow who died was someone I’d been doing business with for a long time. 
+NPC
+It’s a shame he had to go, but I can’t say he didn’t have it coming for him. 
+NPC
+Always had his nose in the wrong people’s business, profitable though they were. 
+Hunter
+Do you know anything about the way he died?
+NPC
+Who can say if you weren’t there. I hear plenty of people had it out for him. 
+NPC
+But he wasn’t the type to let himself be targeted first. 
+Hunter
+Point taken. 
+NPC
+Now, I’m not entirely uninvolved, so I’ll tell you this. My sources tell me that there’s a young person holed up somewhere. 
+NPC
+Try your luck on the abandoned buildings on the far side of town, dear. You might find something interesting

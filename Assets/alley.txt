@@ -8,9 +8,13 @@ Hah! I'm not a kid, you don't have to worry about me.
 Hunter
 Normally, I'd be concerned if I wasn't in the middle of an investigation.
 NPC
-Investigation?! That's so cool! Are you a detective mister? Do you have a badge? And a real gun? Can I see it?
+Investigation?! That's so cool! Are you a detective mister? 
+NPC
+Do you have a badge? And a real gun? Can I see it?
 Hunter
-Calm down, I'm not showing you my gun. But I'll show you this. Do you know the kid in this picture?
+Calm down, I'm not showing you my gun. 
+Hunter
+But I can show you this. Do you know the kid in this picture?
 NPC
 Hey! Where'd you get that?!
 Hunter
@@ -20,11 +24,15 @@ That's a piture of my friend!
 Hunter
 Your what? You know this kid?
 NPC
-Of Course! We usually play here every day... But I haven't seen her since last week. Do you know what happened, mister?
+Of Course! We usually play here every day... 
+NPC
+But I haven't seen her since last week. Do you know what happened, mister?
 Hunter
 Did your friend say anything weird to you last week?
 NPC
-Just that she was going to bring me something special because she was going to prove herself. She was going to get a special tattoo.
+Just that she was going to bring me something special cause she was going to prove herself. 
+NPC
+She was going to get a special tattoo.
 Hunter
 A tattoo huh?
 NPC
@@ -32,7 +40,9 @@ Yeah, the strong members of all the gangs have one.
 Hunter
 Did she say how she was going to get this tattoo?
 NPC
-I asked, but she wouldn't tell me. She talked about the club down the street, but that's it. Are you going to find my friend? She didn't do anything bad, right?
+I asked, but she wouldn't tell me. She talked about the club down the street, but that's it. 
+NPC
+Are you going to find my friend? She didn't do anything bad, right?
 Hunter
 PickOption
 (t: We don't know for sure. y: I'm sure she's fine.)
@@ -72,6 +82,7 @@ Hunter
 Oh? And I assume you know nothing about the man who died either.
 NPC
 Nope. Never heard of him in my life.
+Hunter
 PickOption
 (t: I see. Sorry to bother you. y: That's a shame, isn't it?)
 NPC
@@ -88,10 +99,12 @@ I mean. Arg, fine! I know the guy... Knew the guy, ok. Are you happy?
 Hunter
 Not until you tell me more.
 NPC
-We got along. He took me places, paid for dinner. Told me about his work, selling things to people, real important people. He was real cool like that.
+We got along. He took me places, paid for dinner. Told me about his work.
+NPC
+He sold things to people, very important people. He was real cool like that.
 Hunter
 PickOption
-(t:Were you dating or something? y:Did you go anywhere else with the guy?)
+Were you dating or something?
 NPC
 Are you out of your mind?
 Hunter
@@ -108,20 +121,4 @@ NPC
 Here, I'll give you this, it's the address to his hotel room. I'm sure it's open for people like you to investigate.
 Hunter
 Thanks, it's appreciated.
-End
-0100
-NPC
-Besides resteraunts? We took walks through the streets sometimes. And he let me stay at his hotel a few times when I was too tipsy to go home myself.
-NPC
-I think he lived in that hotel room. Makes me kind of sad thiking we won't be going back there anymore.
-Hunter
-This hotel, where is it?
-NPC
-Hey, are you... going to find the person who killed him? You're a reporter or something like that right?
-Hunter
-If that's what's at the end of my search, then yes.
-NPC
-Here, I'll give you this, it's the address to his hotel room. I'm sure it's open for people like you to investigate.
-Hunter
-Thanks, it's appreciated
 End
