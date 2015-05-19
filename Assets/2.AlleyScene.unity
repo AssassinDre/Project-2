@@ -470,7 +470,6 @@ GameObject:
   - 64: {fileID: 624857905}
   - 114: {fileID: 624857906}
   - 114: {fileID: 624857907}
-  - 114: {fileID: 624857908}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -648,17 +647,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dia: {fileID: 624857898}
   scoreKeeper: {fileID: 0}
---- !u!114 &624857908
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 624857896}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d51cfed5975cb74c8f640c6b9b281f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &702087508
 GameObject:
   m_ObjectHideFlags: 0
@@ -969,7 +957,6 @@ GameObject:
   - 65: {fileID: 1842778870}
   m_Layer: 0
   m_Name: syringe
-  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -984,7 +971,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.13000011, y: 3.31999993, z: 2.8900001}
+  m_Size: {x: 1.03999984, y: 1.03999984, z: .200000003}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1842778871
 SpriteRenderer:
@@ -1015,7 +1002,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1842778869}
   m_LocalRotation: {x: 0, y: 0, z: .247269019, w: .968946874}
-  m_LocalPosition: {x: 11.8299999, y: -1.38, z: -.0799999982}
+  m_LocalPosition: {x: 11.8343458, y: -1.37930274, z: 0}
   m_LocalScale: {x: .53171587, y: .53171593, z: .53171593}
   m_Children: []
   m_Father: {fileID: 0}
