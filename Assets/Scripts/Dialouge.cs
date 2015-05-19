@@ -21,7 +21,6 @@ public class Dialouge : MonoBehaviour {
 
 	bool option2 = false, option3 = false, choice = false;
 
-	string tag;
 
 	public GUISkin talkBox = null;
 	public GUISkin nameBox = null;
@@ -83,25 +82,25 @@ public class Dialouge : MonoBehaviour {
 	//The tag is then used in the checkFile method to see who we are talking to
 	void Update () {
 
-		if (Input.GetKey (KeyCode.W) && talk){
+		if (Input.GetKey (KeyCode.E) && talk){
 			print(tag);
 			checkFile(tag);
 		}
 
 
-		//Example of how this system has NPC's display alternate dialog.
-		//If a certain condition is met (in this case, a collectable in the move class is collected)
-		//Then the code will search for the tag of the NPC whoose dialog changes
-		//And then changes the tag
-		//Due to the way the dialog system works, this will change what the NPC says
-		//Reasonably elegant and efficient, if a bit hard-code-y
-		//The check variable is present so this change only happens once, and not over and over
-		if (PlayerMove2.collected && check) {
-			GameObject Text2 = GameObject.FindWithTag("Text2");
-			Text2.tag = Text2.tag + "A";
-			print (Text2.tag);
-			check = false;
-		}
+//		//Example of how this system has NPC's display alternate dialog.
+//		//If a certain condition is met (in this case, a collectable in the move class is collected)
+//		//Then the code will search for the tag of the NPC whoose dialog changes
+//		//And then changes the tag
+//		//Due to the way the dialog system works, this will change what the NPC says
+//		//Reasonably elegant and efficient, if a bit hard-code-y
+//		//The check variable is present so this change only happens once, and not over and over
+//		if (PlayerMove2.collected && check) {
+//			GameObject Text2 = GameObject.FindWithTag("Text2");
+//			Text2.tag = Text2.tag + "A";
+//			print (Text2.tag);
+//			check = false;
+//		}
 	}
 
 	void checkFile(string start)
@@ -253,20 +252,20 @@ public class Dialouge : MonoBehaviour {
 	{
 		while(!_keyPressed)
 		{
-			if(Input.GetKeyDown(KeyCode.T))
+			if(Input.GetKeyDown(KeyCode.Z))
 			{
 				_keyPressed = true;
 				//print("Pressed.");
 				break;
 			}
-			if(Input.GetKeyDown(KeyCode.Y))
+			if(Input.GetKeyDown(KeyCode.X))
 			{
 				_keyPressed = true;
 				option2 = true;
 				//print("Pressed.");
 				break;
 			}
-			if(Input.GetKeyDown(KeyCode.U))
+			if(Input.GetKeyDown(KeyCode.C))
 			{
 				_keyPressed = true;
 				option3 = true;

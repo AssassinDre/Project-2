@@ -2,11 +2,12 @@
 using System.Collections;
 
 public class loadNext : MonoBehaviour {
-	public PlayerScore scoreKeeper;
+	PlayerScore scoreKeeper;
 	public MeshCollider collider1;
 
 	// Use this for initialization
 	void Start () {
+		scoreKeeper = (PlayerScore) FindObjectOfType (typeof(PlayerScore));
 	}
 	
 	// Update is called once per frame

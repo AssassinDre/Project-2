@@ -173,47 +173,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!1 &378059077
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 378059079}
-  - 114: {fileID: 378059078}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &378059078
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 378059077}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f74effa7be006ae4da3bd0f17ef7aea0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  score: 0
-  criticalMet: 0
---- !u!4 &378059079
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 378059077}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.71999979, y: -2.51999998, z: -.720000029}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
 --- !u!1 &529243450
 GameObject:
   m_ObjectHideFlags: 0
@@ -312,7 +271,7 @@ Transform:
   m_LocalScale: {x: 1, y: 4.03882313, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
 --- !u!1 &692940558
 GameObject:
   m_ObjectHideFlags: 0
@@ -712,7 +671,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0124e6c7cb2863b4ab36e3a644a9ace7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreKeeper: {fileID: 378059078}
+  scoreKeeper: {fileID: 0}
   triggerred: 0
 --- !u!65 &1882803140
 BoxCollider:
@@ -779,7 +738,7 @@ Transform:
   m_LocalScale: {x: 1, y: 4.03882313, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
 --- !u!1 &1953061920
 GameObject:
   m_ObjectHideFlags: 0
@@ -811,7 +770,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 993e710dfa33bc4408257d2d14199ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreKeeper: {fileID: 378059078}
   collider1: {fileID: 1953061924}
 --- !u!54 &1953061922
 Rigidbody:
@@ -879,4 +837,4 @@ Transform:
   m_LocalScale: {x: 1, y: 4.03882313, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
