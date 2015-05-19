@@ -76,4 +76,5 @@ Hunter
 No, I really am sorry. 
 NPC
 What?-
-End
+Change
+EndKill

@@ -103,4 +103,5 @@ NPC
 Thanks.
 Hunter
 Just doing my job.
-End
+Change
+EndSpare
