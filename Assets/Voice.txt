@@ -1,0 +1,23 @@
+Voice
+NPC
+You've received the mission correspondence?
+Hunter
+Yeah. It's the kid in the photo this time, right?
+NPC
+Correct. That "kid" is a high priority for the company.
+Hunter
+Because you think this kid is connected to that murder case?
+NPC
+This disappearance has since crossed the line of coincidence, think you know. I trust that we can rely on your efficient tracking skills.
+Hunter
+Have I ever let you down before?
+NPC
+Good to hear. Take a look around. The people in those parts of the city may know something important.
+Hunter
+You're sure there's nothing else you can give me?
+NPC
+I'm afraid policy prevents that. But judging by the price tag, I'm sure there will be no problems.
+Hunter
+Yeah, I'll do it. Finding one kid shouldn't be too hard. 
+NPC
+Good. We will contact you again when you have located the target and you will be given further instructions. 
