@@ -25,3 +25,7 @@ EditorBuildSettings:
     path: Assets/6.ApartmentScene.unity
   - enabled: 1
     path: Assets/TitleMenu.unity
+  - enabled: 1
+    path: Assets/EndSpare.unity
+  - enabled: 1
+    path: Assets/EndKill.unity
