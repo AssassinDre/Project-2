@@ -75,12 +75,11 @@ public class Dialouge : MonoBehaviour {
 		tag = other.tag;
 		talk = true;
 
-		if (tag.Contains("Force");
-		    {
-			force = true;
-			checkFile (tag);
+		if (tag.Contains("Force")){
+				force = true;
+				checkFile (tag);
+			}
 		}
-	}
 
 	//When you leave, talk is set to false
 
@@ -199,7 +198,8 @@ public class Dialouge : MonoBehaviour {
 					if (force)
 					{
 						temp = dialogLines[line++];
-						if (!temp.Contains("None") Application.LoadLevel(temp);
+						if (!temp.Contains("None"))
+					    	Application.LoadLevel(temp);
 					}
 				return true;
 			}
