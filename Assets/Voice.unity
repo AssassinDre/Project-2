@@ -545,7 +545,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   talking: 0
-  textFile: {fileID: 0}
+  textFile: {fileID: 4900000, guid: 691664aad802e8a4087a877ff8355b51, type: 3}
   render: {fileID: 0}
   letterPause: .100000001
   tag: 

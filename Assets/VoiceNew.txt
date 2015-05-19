@@ -1,31 +1,31 @@
 Voice
 NPC
-You've received the mission correspondence?
+You've received the mission correspondence? (z)
 Hunter
-Yeah. It's the kid in the photo this time, right?
+Yeah. It's the kid in the photo this time, right? (z)
 NPC
-Correct. That "kid" is a high priority for the company.
+Correct. That "kid" is a high priority for the company. (z)
 Hunter
-Because you think this kid is connected to that murder case?
+Because you think this kid is connected to that murder case? (z)
 NPC
-This disappearance has since crossed the line of coincidence, I think you know. 
+This disappearance has since crossed the line of coincidence, I think you know. (z)
 NPC
-I trust that we can rely on your efficient tracking skills.
+I trust that we can rely on your efficient tracking skills. (z)
 Hunter
-Have I ever let you down before?
+Have I ever let you down before? (z)
 NPC
-Good to hear. Take a look around. 
+Good to hear. Take a look around. (z)
 NPC
-The people in those parts of the city may know something important.
+The people in those parts of the city may know something important. (z)
 Hunter
-You're sure there's nothing else you can give me?
+You're sure there's nothing else you can give me? (z)
 NPC
-I'm afraid policy prevents that. 
+I'm afraid policy prevents that. (z)
 NPC
-But judging by the price tag, I'm sure there will be no problems.
+But judging by the price tag, I'm sure there will be no problems. (z)
 Hunter
-Yeah, I'll do it. Finding one kid shouldn't be too hard. 
+Yeah, I'll do it. Finding one kid shouldn't be too hard. (z)
 NPC
-Good. We will contact give you further instructions when you have located the target.
+Good. We will contact give you further instructions when you have located the target. (z)
 Change
 1.BarScene
