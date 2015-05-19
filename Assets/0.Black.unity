@@ -73,7 +73,6 @@ NavMeshSettings:
     minRegionArea: 2
     widthInaccuracy: 16.666666
     heightInaccuracy: 10
-    tileSizeHint: 0
   m_NavMesh: {fileID: 0}
 --- !u!1 &429064834
 GameObject:
@@ -223,10 +222,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textFile: {fileID: 4900000, guid: b3d18b6ffdebbb94c925ecba6229f4f8, type: 3}
-  render: {fileID: 0}
-  letterPause: .100000001
-  talkBox: {fileID: 0}
-  nameBox: {fileID: 0}
+  render: {fileID: 2100000, guid: 2b7a6b3d8d69e55468dc4dfe3f744885, type: 2}
+  letterPause: .0199999996
+  talkBox: {fileID: 11400000, guid: 860f8b478823b8b40a6b549c0746fcc8, type: 2}
+  nameBox: {fileID: 11400000, guid: 6b1b2e40413704f43ac382b58982474b, type: 2}
 --- !u!114 &1832174908
 MonoBehaviour:
   m_ObjectHideFlags: 0

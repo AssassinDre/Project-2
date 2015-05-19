@@ -6,6 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/0.Black.unity
+  - enabled: 1
     path: Assets/1.BarScene.unity
   - enabled: 1
     path: Assets/2.AlleyScene.unity
