@@ -21,3 +21,5 @@ Hunter
 Yeah, I'll do it. Finding one kid shouldn't be too hard. 
 NPC
 Good. We will contact you again when you have located the target and you will be given further instructions. 
+Change
+1.BarScene

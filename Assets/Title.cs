@@ -16,7 +16,7 @@ public class Title : MonoBehaviour {
 
 		if (GUI.Button(new Rect(Screen.width/1.55f, Screen.height/1.5f, 100, 40), "Start"))
 		{
-			Application.LoadLevel("0.Black");
+			Application.LoadLevel("Voice");
 		}
 		if (GUI.Button(new Rect(Screen.width/1.55f, Screen.height/1.3f, 100, 40), "Quit"))
 		{
