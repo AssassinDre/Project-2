@@ -141,6 +141,7 @@ GameObject:
   - 114: {fileID: 48547788}
   - 64: {fileID: 48547790}
   - 114: {fileID: 48547791}
+  - 114: {fileID: 48547792}
   m_Layer: 0
   m_Name: Hunter
   m_TagString: Player
@@ -267,11 +268,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638ce49ebf424374d8989b63788e2ae0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  talking: 0
   textFile: {fileID: 4900000, guid: 2e18d074c92ee594aaeff771c46f2cfc, type: 3}
   render: {fileID: 2100000, guid: fd01390258e13404abaf8730fb1f60a6, type: 2}
   letterPause: .0199999996
+  tag: 
   talkBox: {fileID: 11400000, guid: 860f8b478823b8b40a6b549c0746fcc8, type: 2}
   nameBox: {fileID: 11400000, guid: 6b1b2e40413704f43ac382b58982474b, type: 2}
+  checker: {fileID: 48547792}
 --- !u!64 &48547790
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -296,6 +300,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d51cfed5975cb74c8f640c6b9b281f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &48547792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 48547781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27ad4fc0265d9804c9059b4fd26686c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dia: {fileID: 48547789}
+  scoreKeeper: {fileID: 0}
 --- !u!1 &73395779
 GameObject:
   m_ObjectHideFlags: 0
@@ -1114,6 +1131,10 @@ Prefab:
       propertyPath: m_Drag
       value: 200
       objectReference: {fileID: 0}
+    - target: {fileID: 11400004, guid: 2b3e4c2d28cb96844a9a2c85ede6f2ec, type: 2}
+      propertyPath: checker
+      value: 
+      objectReference: {fileID: 48547792}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b3e4c2d28cb96844a9a2c85ede6f2ec, type: 2}
   m_RootGameObject: {fileID: 48547781}
@@ -1410,7 +1431,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   items: 
-  criticalMet: 0
+  criticalMet: 1
   newspapers: {fileID: 1548070145}
   syringe: {fileID: 2105615077}
   bullets: {fileID: 1327893877}

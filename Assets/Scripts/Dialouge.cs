@@ -6,7 +6,8 @@ using System.Text.RegularExpressions;
 
 public class Dialouge : MonoBehaviour {
 	//StreamReader reader = new StreamReader("file.txt");
-	bool talk = false, talking = false, npcTalk = false, playerTalk = false, proceed = false;
+	bool talk = false, npcTalk = false, playerTalk = false, proceed = false;
+	public bool talking = false;
 	private Vector2 pos;
 	public TextAsset textFile;
 	string[] dialogLines;
@@ -21,11 +22,13 @@ public class Dialouge : MonoBehaviour {
 
 	bool option2 = false, option3 = false, choice = false;
 
-	string tag;
+	public string tag;
 	public GUISkin talkBox = null;
 	public GUISkin nameBox = null;
 
 	bool force = false;
+
+	public itemCheck checker;
 
 	void Start () {
 		string a = "aaaabv";
@@ -75,6 +78,7 @@ public class Dialouge : MonoBehaviour {
 	void OnTriggerEnter(Collider other) {
 		tag = other.tag;
 		talk = true;
+		checker.checkItem (tag);
 
 		if (tag.Contains("Force")){
 				force = true;
