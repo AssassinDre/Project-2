@@ -16,7 +16,7 @@ NPC
 Heh. Naw you’re on the money there old man. 
 Hunter 
 So, what’s the story?
-Member
+NPC
 You really wanna know? There’s this man, see? He was doin’ business with us for some odd years.
 NPC
 But recently things have been, how would you say? Rocky. Between us. 
@@ -50,9 +50,10 @@ NPC
 We got into a scuffle  that turned into a brawl and lets just say not all of us got out without scratches. 
 Hunter
 No idea where she is now?
-Member
+NPC
 Probably hidin’ out in some abandoned building. I heard she sleeps there. 
 NPC
 I wish I was out of this damn hospital so I could look for her myself.
 Hunter
 You leave that to me. Thanks for the tip. 
+End
