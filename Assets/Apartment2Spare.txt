@@ -1,0 +1,106 @@
+Kid
+Hunter
+  I am going to warn you now, there’s nowhere you can run.
+NPC
+You think I don’t know that. I wasn’t planning on it. 
+Hunter
+So what’s the story? I’ve heard plenty about you.
+Hunter
+Not all of it is bad. But not all of it’s good.
+NPC
+Aren’t you here to arrest me or something, not hear my life story?
+Hunter
+I like knowing why I take people in before I do. Besides, you don’t look like a killer to me.
+NPC
+Is that cause I’m young? Can’t imagine anyone who’s not an adult killing?
+Hunter
+Did you then?
+NPC
+Yeah, I did. That guy who was found dead in the alleyway. I did that. Happy?
+Hunter
+Not yet, no.
+NPC
+Than what else do you want?!
+Hunter
+Motive.
+NPC
+What? I’m supposed to think you’ll believe me.
+Hunter
+I might not. But think of what would happen if I did. 
+NPC
+There’s this gang. I’m sure you’ve heard about them. I’ve been with them for a while now.
+NPC
+They always treated me like dirt but it was a way to get money. Through little things. 
+NPC
+I’ve got my own people to take care of. And I can’t do it without those people.
+NPC
+They told me that if I took this guy out, I’d rise in the ranks. More control. Over them and over me.
+Hunter
+And things didn’t exactly go as planned.
+NPC
+Heh, you got that right. I went out hoping to make quick work of it, but the guy somehow knew I was coming.
+NPC
+I followed him to that alley and he pulled a gun on me. 
+NPC
+I barely had time to not get my brains blown out, so I panicked. 
+NPC
+I stabbed him and got out of there as fast as I could.
+Hunter
+So he shot at you and you stabbed him?
+NPC
+Yeah. And then I come back to the guys with blood on my hands and they’re waiting, but not to congratulate me.
+Hunter
+I hear you started a brawl.
+NPC
+They were completely ready to get rid of me. I had to fight my way out.
+Hunter
+And now you’re here?
+NPC
+That’s the gist of it. I don’t regret it. I’m not gonna let myself regret it.
+NPC
+But… I was an idiot, thinking I could finally get somewhere with this. 
+NPC
+But if I was to go back and do it again… 
+NPC
+I don’t care what happens to me.  
+NPC
+But my mom’s not gonna have anyone to take care of her. That kid won’t have anyone to play with him. 
+NPC
+It’s not like I did things without reason. 
+Hunter
+In the end, your actions are you own, you know that.
+NPC
+You can stand there and lecture me all day. But it’s not going to change anything.
+NPC
+Besides, you’re not here to do that.
+Hunter
+No, I’m not. 
+Kid
+Well then, do your thing, old man. I’ve got nowhere to run, right?
+Hunter
+Sounds like you’ve given up.
+NPC
+Huh?
+Hunter
+I think this case still merits more investigation. I haven’t tied up all the loose ends quite yet.
+NPC
+What? Isn’t that your job? I’m right here, isn’t that all there is?
+Hunter
+I’m a bounty hunter. But I think I’d like to consider myself an investigator, just this once. 
+NPC
+But. Why? 
+Hunter
+No reason. I’m a curious person. 
+NPC
+You’re putting yourself in danger, you know.
+Hunter
+I think I can take care of myself. 
+NPC
+Heh. You’re a weird old man. 
+Hunter
+I’ll take that as a compliment.
+NPC
+Thanks.
+Hunter
+Just doing my job.
+End
