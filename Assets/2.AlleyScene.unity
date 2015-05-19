@@ -957,6 +957,7 @@ GameObject:
   - 65: {fileID: 1842778870}
   m_Layer: 0
   m_Name: syringe
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -971,8 +972,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.03999984, y: 1.03999984, z: .200000003}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 4.6500001, y: 1.90999997, z: 2.5}
+  m_Center: {x: -.310000002, y: .330000013, z: 0}
 --- !u!212 &1842778871
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1002,7 +1003,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1842778869}
   m_LocalRotation: {x: 0, y: 0, z: .247269019, w: .968946874}
-  m_LocalPosition: {x: 11.8343458, y: -1.37930274, z: 0}
+  m_LocalPosition: {x: 11.8299999, y: -1.38, z: -.340000004}
   m_LocalScale: {x: .53171587, y: .53171593, z: .53171593}
   m_Children: []
   m_Father: {fileID: 0}
