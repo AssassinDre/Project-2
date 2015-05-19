@@ -288,6 +288,9 @@ GameObject:
   - 114: {fileID: 692940560}
   - 114: {fileID: 692940559}
   - 64: {fileID: 692940567}
+  - 114: {fileID: 692940570}
+  - 114: {fileID: 692940569}
+  - 114: {fileID: 692940568}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -319,11 +322,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638ce49ebf424374d8989b63788e2ae0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  talking: 0
   textFile: {fileID: 4900000, guid: f5860802e63e5504bac08835d2f3eded, type: 3}
   render: {fileID: 2100000, guid: 2b7a6b3d8d69e55468dc4dfe3f744885, type: 2}
   letterPause: .00999999978
+  tag: 
   talkBox: {fileID: 11400000, guid: 860f8b478823b8b40a6b549c0746fcc8, type: 2}
   nameBox: {fileID: 11400000, guid: 6b1b2e40413704f43ac382b58982474b, type: 2}
+  checker: {fileID: 692940569}
+  master: {fileID: 692940570}
 --- !u!65 &692940561
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -432,6 +439,43 @@ MeshCollider:
   m_SmoothSphereCollisions: 0
   m_Convex: 1
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &692940568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 692940558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d51cfed5975cb74c8f640c6b9b281f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &692940569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 692940558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27ad4fc0265d9804c9059b4fd26686c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dia: {fileID: 692940560}
+  scoreKeeper: {fileID: 0}
+--- !u!114 &692940570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 692940558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 237f2abb0fad19148a8c2259f118d857, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dia: {fileID: 692940560}
+  scoreKeeper: {fileID: 0}
 --- !u!1001 &700476944
 Prefab:
   m_ObjectHideFlags: 0
@@ -495,6 +539,14 @@ Prefab:
       propertyPath: m_Drag
       value: 200
       objectReference: {fileID: 0}
+    - target: {fileID: 11400004, guid: 2b3e4c2d28cb96844a9a2c85ede6f2ec, type: 2}
+      propertyPath: checker
+      value: 
+      objectReference: {fileID: 692940569}
+    - target: {fileID: 11400004, guid: 2b3e4c2d28cb96844a9a2c85ede6f2ec, type: 2}
+      propertyPath: master
+      value: 
+      objectReference: {fileID: 692940570}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b3e4c2d28cb96844a9a2c85ede6f2ec, type: 2}
   m_RootGameObject: {fileID: 692940558}
@@ -673,6 +725,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreKeeper: {fileID: 0}
   triggerred: 0
+  killPath: 4.StreetScene
+  goodPath: 4.StreetScene
 --- !u!65 &1882803140
 BoxCollider:
   m_ObjectHideFlags: 0

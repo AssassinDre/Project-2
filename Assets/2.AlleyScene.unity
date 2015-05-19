@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 624857896}
-  endX: 21
+  endX: 21.1000004
   offset: {x: 0, y: 0, z: 0}
 --- !u!81 &67771949
 AudioListener:
@@ -469,6 +469,7 @@ GameObject:
   - 114: {fileID: 624857897}
   - 64: {fileID: 624857905}
   - 114: {fileID: 624857906}
+  - 114: {fileID: 624857907}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -508,6 +509,7 @@ MonoBehaviour:
   talkBox: {fileID: 11400000, guid: 860f8b478823b8b40a6b549c0746fcc8, type: 2}
   nameBox: {fileID: 11400000, guid: 6b1b2e40413704f43ac382b58982474b, type: 2}
   checker: {fileID: 624857906}
+  master: {fileID: 624857907}
 --- !u!65 &624857899
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -625,6 +627,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 27ad4fc0265d9804c9059b4fd26686c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dia: {fileID: 624857898}
+  scoreKeeper: {fileID: 0}
+--- !u!114 &624857907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 624857896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 237f2abb0fad19148a8c2259f118d857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dia: {fileID: 624857898}
@@ -950,6 +965,10 @@ Prefab:
       propertyPath: checker
       value: 
       objectReference: {fileID: 624857906}
+    - target: {fileID: 11400004, guid: 2b3e4c2d28cb96844a9a2c85ede6f2ec, type: 2}
+      propertyPath: master
+      value: 
+      objectReference: {fileID: 624857907}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b3e4c2d28cb96844a9a2c85ede6f2ec, type: 2}
   m_RootGameObject: {fileID: 624857896}

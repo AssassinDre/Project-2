@@ -90,6 +90,9 @@ GameObject:
   - 114: {fileID: 185407763}
   - 114: {fileID: 185407762}
   - 64: {fileID: 185407770}
+  - 114: {fileID: 185407773}
+  - 114: {fileID: 185407772}
+  - 114: {fileID: 185407771}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -121,11 +124,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638ce49ebf424374d8989b63788e2ae0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  talking: 0
   textFile: {fileID: 4900000, guid: 195223caaf0060644a2221856789b76a, type: 3}
   render: {fileID: 2100000, guid: 2b7a6b3d8d69e55468dc4dfe3f744885, type: 2}
   letterPause: .00999999978
+  tag: 
   talkBox: {fileID: 11400000, guid: 860f8b478823b8b40a6b549c0746fcc8, type: 2}
   nameBox: {fileID: 11400000, guid: 6b1b2e40413704f43ac382b58982474b, type: 2}
+  checker: {fileID: 185407773}
+  master: {fileID: 185407771}
 --- !u!65 &185407764
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -234,6 +241,43 @@ MeshCollider:
   m_SmoothSphereCollisions: 0
   m_Convex: 1
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &185407771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 185407761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 237f2abb0fad19148a8c2259f118d857, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dia: {fileID: 185407763}
+  scoreKeeper: {fileID: 0}
+--- !u!114 &185407772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 185407761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d51cfed5975cb74c8f640c6b9b281f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &185407773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 185407761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27ad4fc0265d9804c9059b4fd26686c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dia: {fileID: 185407763}
+  scoreKeeper: {fileID: 0}
 --- !u!1 &515786866
 GameObject:
   m_ObjectHideFlags: 0
@@ -585,6 +629,14 @@ Prefab:
       propertyPath: letterPause
       value: .00999999978
       objectReference: {fileID: 0}
+    - target: {fileID: 11400004, guid: 2b3e4c2d28cb96844a9a2c85ede6f2ec, type: 2}
+      propertyPath: checker
+      value: 
+      objectReference: {fileID: 185407773}
+    - target: {fileID: 11400004, guid: 2b3e4c2d28cb96844a9a2c85ede6f2ec, type: 2}
+      propertyPath: master
+      value: 
+      objectReference: {fileID: 185407771}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b3e4c2d28cb96844a9a2c85ede6f2ec, type: 2}
   m_RootGameObject: {fileID: 185407761}
@@ -722,6 +774,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreKeeper: {fileID: 0}
   triggerred: 0
+  killPath: 6.KillApartmentScene
+  goodPath: 6.ApartmentScene
 --- !u!65 &1947243337
 BoxCollider:
   m_ObjectHideFlags: 0

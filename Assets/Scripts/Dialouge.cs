@@ -20,7 +20,7 @@ public class Dialouge : MonoBehaviour {
 
 	TypeText typeWriter;
 
-	bool option2 = false, option3 = false, choice = false;
+	bool option2 = false, option3 = false, choice = false, option1 = false;
 
 	public string tag;
 	public GUISkin talkBox = null;
@@ -29,6 +29,7 @@ public class Dialouge : MonoBehaviour {
 	bool force = false;
 
 	public itemCheck checker;
+	public ScoreMaster master;
 
 	void Start () {
 		string a = "aaaabv";
@@ -138,6 +139,9 @@ public class Dialouge : MonoBehaviour {
 				readDialog(i);
 			}
 		}
+		if (tag == "Young Man")
+			master.getKnifeFromNPC ();
+		master.checkCritical ();
 		talk = false;
 	}
 
@@ -258,8 +262,10 @@ public class Dialouge : MonoBehaviour {
 			//Easy fix
 			if (choice)
 			{
+				int val = 1;
 				if (option2)
 				{
+					val = 2;
 					bool found = false;
 					while(!found)
 					{
@@ -286,6 +292,7 @@ public class Dialouge : MonoBehaviour {
 					}
 					//line = line + 10;
 				}
+				master.Score(val);
 			}
 			//Debug.Log ("Proceed2");
 		}
