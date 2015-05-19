@@ -22,9 +22,9 @@ public class PlayerPickup : MonoBehaviour {
 			else if (tag == "Bullets")
 				scoreKeeper.items [2] = 1;
 			else if (tag == "Money")
-				scoreKeeper.items [3] = 1;
-			else if (tag == "Knife")
 				scoreKeeper.items [4] = 1;
+			else if (tag == "Knife")
+				scoreKeeper.items [3] = 1;
 			Destroy (item);
 		}
 	

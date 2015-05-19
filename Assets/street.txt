@@ -3,7 +3,7 @@ Hunter
 Ma'am, I'd like to ask you some questions.
 NPC
 Is it about that murder case? People have been through here all afternoon asking.
-Hunter.
+Hunter
 Yes, if you know anything, it would be a big help.
 NPC
 I see no reason to give you my story. I'm growing tired of repeating myself over and over.
