@@ -1,8 +1,8 @@
 0.Black
 NPC
-You've received the mission correspondence?
+You've received the mission correspondence? (z)
 Hunter
-Yeah. It's the kid in the photo this time, right?
+Yeah. It's the kid in the photo this time, right? (z)
 NPC
 Correct. That "kid" is a high priority for the company.
 Hunter
