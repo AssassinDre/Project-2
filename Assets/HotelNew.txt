@@ -1,0 +1,70 @@
+Reporter
+NPC
+Excuse me, are you authorized to be here?
+Hunter
+PickOption
+(z:I'm a detective. I'm as authorized as you are. x:That's none of your business.)
+NPC
+Alright I'll believe ya. You look like one of them investigating types.
+Hunter
+Thanks, I think. I take it you're covering this case?
+NPC
+Yes sir, up and coming young reporter, that's me.
+Hunter
+Anything you can tell me about the victim?
+NPC
+There's not much dirt, unfortunately. 
+NPC
+He is said to be involved with some kind of underground market.
+NPC
+However, nobody knows if it's true or not.
+Hunter
+So it's just a rumor?
+NPC
+Yup. Otherwise he's just your typical businessman.
+Hunter
+Any reason why he lives in a hotel?
+NPC
+It's not like the guy was poor. The hotel says he always paid his fees on time too.
+NPC
+Apparently he kept to himself. Not many people saw him around. 
+NPC
+Pretty lackluster if you ask me.
+Hunter
+That in itself seems suspicious. What about when he was killed?
+NPC
+Well, he left one afternoon and didn't come back. 
+NPC
+Though the old man next door said he heard him talkin' on the phone with someone. 
+NPC
+Said something about meeting up about a deal, I think.
+Hunter
+Do you know where?
+NPC
+I'd assume it would be the place he was found dead, no?
+NPC
+I'll be there later to snoop out anything juicy if I can find it. 
+Hunter
+That sounds like my next stop then.
+End 
+0100
+I'm afraid it is my business as the dashing young reporter in charge.
+Hunter
+You don't seem like the in-charge type.
+NPC
+That's besides the point. If you continue this behavior, I shall have to ask you to leave.
+Hunter
+I'm just going to do a quick sweep of the room and I'll be on my way.
+NPC
+Alright, but don't cause any trouble. I have my eye on you.
+Hunter
+Since you want me out of here so fast, any advice on where to continue my investigation?
+NPC
+Have you tried the scene of the crime?
+Hunter
+That would be?
+NPC
+Far side of town. You know, where all the shops are. Are you really an investigator?
+Hunter
+That sounds like my next stop, thanks. 
+End

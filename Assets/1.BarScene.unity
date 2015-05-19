@@ -270,7 +270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   talking: 0
-  textFile: {fileID: 4900000, guid: 2e18d074c92ee594aaeff771c46f2cfc, type: 3}
+  textFile: {fileID: 4900000, guid: 7048552e99cc00d4ea47d175be9ae6f7, type: 3}
   render: {fileID: 2100000, guid: fd01390258e13404abaf8730fb1f60a6, type: 2}
   letterPause: .0199999996
   tag: 
@@ -912,7 +912,7 @@ Prefab:
     - target: {fileID: 11400004, guid: 2b3e4c2d28cb96844a9a2c85ede6f2ec, type: 2}
       propertyPath: textFile
       value: 
-      objectReference: {fileID: 4900000, guid: 2e18d074c92ee594aaeff771c46f2cfc, type: 3}
+      objectReference: {fileID: 4900000, guid: 7048552e99cc00d4ea47d175be9ae6f7, type: 3}
     - target: {fileID: 11400004, guid: 2b3e4c2d28cb96844a9a2c85ede6f2ec, type: 2}
       propertyPath: letterPause
       value: .0199999996
