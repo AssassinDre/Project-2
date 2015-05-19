@@ -51,7 +51,7 @@ Hunter
 You know the location?
 NPC
 Try your luck with the abandoned buildings on the far side of town, dear. You might find something interesting
-
+End
 Woman
 NPC
 Hello there handsome. Beautiful evening, isn’t it?
@@ -89,3 +89,4 @@ NPC
 Now, I’m not entirely uninvolved, so I’ll tell you this. My sources tell me that there’s a young person holed up somewhere. 
 NPC
 Try your luck on the abandoned buildings on the far side of town, dear. You might find something interesting
+End
