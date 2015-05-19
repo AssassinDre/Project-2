@@ -176,10 +176,10 @@ public class Dialouge : MonoBehaviour {
 			temp = dialogLines [line];
 			//print ("TEMP:" + temp);
 			//print (temp);
-
+			temp = temp.Replace("\r", "").Replace("\n", "");
 			//Bool variables display relevant dialog boxes depending on who is talking
 			//Then fetches the first line of dialog from that character
-			if (temp.Contains ("Hunter"))
+			if (temp.Equals ("Hunter"))
 			{
 
 				playerTalk = true;
@@ -187,14 +187,14 @@ public class Dialouge : MonoBehaviour {
 				line++;
 				temp = dialogLines [line];
 			}
-			if (temp.Contains ("NPC") || temp.Contains("Bartend") || temp.Contains("Scruffy")) {
+			if (temp.Equals ("NPC") || temp.Equals("Bartend") || temp.Equals("Scruffy")) {
 				playerTalk = false;
 				npcTalk= true;
 				line++;
 				temp = dialogLines [line];
 			}
 
-			if (temp.Contains ("Change"))
+			if (temp.Equals ("Change"))
 			{
 				playerTalk = false;
 				npcTalk= false;
@@ -212,9 +212,8 @@ public class Dialouge : MonoBehaviour {
 				
 				return true;
 			}
-
 			//If file reads end, ends the conversation
-			if (temp.Contains ("End"))
+			if (temp.Equals ("End"))
 			{
 				playerTalk = false;
 				npcTalk= false;
@@ -223,10 +222,14 @@ public class Dialouge : MonoBehaviour {
 				PlayerMoveAnimated.canMove = true;
 					if (force)
 					{
+					line++;
 						temp = dialogLines[line++];
 					string newTemp = temp.Replace("\r", "").Replace("\n", "");
-					if (!temp.Contains("None"))
-					    	Application.LoadLevel(temp);
+					print (newTemp);
+					print (newTemp.Equals("1.BarScene"));
+					if (!newTemp.Equals("None"))
+					    	Application.LoadLevel(newTemp);
+					force = false;
 					}
 				return true;
 			}
