@@ -73,6 +73,7 @@ NavMeshSettings:
     minRegionArea: 2
     widthInaccuracy: 16.666666
     heightInaccuracy: 10
+    tileSizeHint: 0
   m_NavMesh: {fileID: 0}
 --- !u!1 &28539501
 GameObject:
@@ -291,7 +292,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 48547781}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6d51cfed5975cb74c8f640c6b9b281f2, type: 3}
   m_Name: 
@@ -1391,12 +1392,12 @@ MonoBehaviour:
   score: 0
   items: 
   criticalMet: 0
-  nameBox: {fileID: 11400000, guid: 6b1b2e40413704f43ac382b58982474b, type: 2}
-  newspapers: {fileID: 1548070145}
-  syringe: {fileID: 2105615077}
-  bullets: {fileID: 1327893877}
-  knife: {fileID: 1268209893}
-  cash: {fileID: 874881354}
+  nameBox: {fileID: 0}
+  newspapers: {fileID: 0}
+  syringe: {fileID: 0}
+  bullets: {fileID: 0}
+  knife: {fileID: 0}
+  cash: {fileID: 0}
 --- !u!4 &1312151723
 Transform:
   m_ObjectHideFlags: 0

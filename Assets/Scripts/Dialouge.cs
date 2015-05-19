@@ -30,7 +30,6 @@ public class Dialouge : MonoBehaviour {
 	void Start () {
 		string a = "aaaabv";
 		print (a);
-
 		//Records player pos	ition, and transfers speech data from file to array
 		pos = transform.position;
 		string text = textFile.text;
@@ -122,7 +121,9 @@ public class Dialouge : MonoBehaviour {
 		for (int i = 0; i < length; ++i) {
 			//Search through the file, and when the tag variable of the NPC you are interacting with matches the line
 			string temp = dialogLines[i];
-
+			print (tag.Equals(temp));
+			print (tag);
+			print (temp);
 			//Halt player movement, set relevant variables, and read the dialog
 			if (temp.Equals(tag))
 			{
@@ -189,6 +190,25 @@ public class Dialouge : MonoBehaviour {
 				temp = dialogLines [line];
 			}
 
+			if (temp.Contains ("Change"))
+			{
+				playerTalk = false;
+				npcTalk= false;
+				talking = false;
+				PlayerMove2.isPaused = false;
+				PlayerMoveAnimated.canMove = true;
+				line++;
+				temp = dialogLines[line++];
+				print (temp.Equals("1.BarScene"));
+				string newTemp = temp.Replace("\r", "").Replace("\n", "");
+				print (newTemp.Equals("1.BarScene"));
+				print (temp);
+				print (newTemp);
+				Application.LoadLevel(newTemp);
+				
+				return true;
+			}
+
 			//If file reads end, ends the conversation
 			if (temp.Contains ("End"))
 			{
@@ -200,12 +220,14 @@ public class Dialouge : MonoBehaviour {
 					if (force)
 					{
 						temp = dialogLines[line++];
-						if (!temp.Contains("None"))
+					string newTemp = temp.Replace("\r", "").Replace("\n", "");
+					if (!temp.Contains("None"))
 					    	Application.LoadLevel(temp);
 					}
 				return true;
 			}
 
+			
 			//Leads into multiple dialog choice
 			if (temp.Contains ("PickOption"))
 			{
