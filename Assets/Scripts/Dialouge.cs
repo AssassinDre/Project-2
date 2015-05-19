@@ -143,7 +143,7 @@ public class Dialouge : MonoBehaviour {
 
 		//Depending on who is talking first, the relevant dialog box is displayed
 		//In both cases, starts the dialog coroutine
-		if (temp.Contains ("NPC") || temp.Contains("???") || temp.Contains("Bartend") || temp.Contains("Scruffy")) {
+		if (temp.Contains ("NPC") || temp.Contains("Bartend") || temp.Contains("Scruffy")) {
 			temp = dialogLines [line];
 			npcName = temp;
 			//npcTalk = true;
@@ -182,7 +182,7 @@ public class Dialouge : MonoBehaviour {
 				line++;
 				temp = dialogLines [line];
 			}
-			if (temp.Contains ("NPC") || temp.Contains("???") || temp.Contains("Bartend") || temp.Contains("Scruffy")) {
+			if (temp.Contains ("NPC") || temp.Contains("Bartend") || temp.Contains("Scruffy")) {
 				playerTalk = false;
 				npcTalk= true;
 				line++;

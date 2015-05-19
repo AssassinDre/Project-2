@@ -1,0 +1,21 @@
+???
+NPC
+We've tracked your location. You say you've found the target?
+Hunter
+Yeah, this should be the place.
+NPC
+Good. When you have the target in your sights, you are to immediately dispose of it.
+Hunter
+What?
+NPC
+This is a direct order. You carry a gun for a reason.
+Hunter
+I'm still lacking info
+NPC
+Your job is to locate, not to make moral judgements.
+NPC
+Refusal is not an option. Your own safety and the stability of this company rests with you.
+Hunter
+... I understand.
+NPC
+Very good. I will check back in when you have completed this task.

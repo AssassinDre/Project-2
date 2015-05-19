@@ -1,0 +1,79 @@
+Kid
+Hunter
+  I am going to warn you now, there’s nowhere you can run.
+NPC
+You think I don’t know that. I wasn’t planning on it.
+Hunter
+So what’s the story? I’ve heard plenty about you.
+Hunter
+Not all of it is bad. But not all of it’s good.
+NPC
+Aren’t you here to arrest me or something, not hear my life story?
+Hunter
+I like knowing why I take people in before I do. I want to know if you’re really a killer.
+NPC
+Is that cause I’m young? Can’t imagine anyone who’s not an adult killing?
+Hunter
+Did you then?
+NPC
+Yeah, I did. That guy who was found dead in the alleyway. I did that. Happy?
+Hunter
+Not yet, no.
+NPC
+Than what else do you want?!
+Hunter
+Motive.
+NPC
+What? I’m supposed to think you’ll believe me.
+Hunter
+I might.
+NPC
+There's this gang. I've been with 'em for several years, even if they all treat me like dirt.
+NPC
+Its a way to get money. Robbery. Trading things that stay under the radar. 
+NPC
+They told me this time I’d rise in the ranks. All I had to do was take this guy out.
+NPC
+You know, tattoos are a sign of power where I come from. If you have certain ones, you’re allowed things others aren’t.
+NPC
+I’ve always wanted that and this was supposed to be my chance.
+Hunter: Not everything went according to plan. 
+NPC
+Hah, you got that right. The guy was ready for me. He’s one of those always prepared types.
+NPC
+I guess he’s been in the business for a while so it’s not unexpected. 
+NPC
+I followed him into the alley and he pulled a gun on me. I barely managed to not get my head blown off before I managed to stab him. 
+Hunter
+So he shot at you, then you stabbed him?
+NPC
+Yeah. I grabbed his gun afterwards and made sure he was dead. 
+NPC
+But then I got out of there as fast as I could. I don’t know what happened to my knife. 
+Hunter
+And when you got back, things didn’t go so well either?
+NPC
+They’d planned to turn on me the entire time. They wanted to let their little grunt do all the work and then take the fall. 
+NPC
+I wasn’t prepared to let that happen. So a fight broke out, I escaped, and now I’m here. 
+NPC
+I don’t regret it you know. Well, I regret that I wasn’t able to see I was being tricked. 
+NPC
+Then maybe things would have been a little different. 
+NPC
+I was an idiot thinking I could finally get somewhere. 
+Hunter
+In the end, your actions are your own. You only have yourself to blame. 
+NPC
+Don’t lecture me. You think I don’t know that?
+Hunter
+I’m sorry it had to end this way.
+NPC
+I’m sorry too, believe me. When I’m sitting behind bars, I will be too.
+NPC
+But it’s your job isn’t it? You don’t get to feel bad.
+Hunter
+No, I really am sorry. 
+NPC
+What?-
+End
