@@ -6,15 +6,16 @@ public class PlayerScore : MonoBehaviour {
 	public int[] items;
 	public bool criticalMet;
 	string tag;
-	public GUISkin nameBox = null;
 	public Item newspapers;
 	public Item syringe;
 	public Item bullets;
 	public Item knife;
 	public Item cash;
+	public Item phone;
+	public Item gun;
 	// Use this for initialization
 	void Start () {
-		items = new int[5];
+		items = new int[7] {0,0,0,0,0,1,1};
 	}
 	
 	// Update is called once per frame
@@ -29,6 +30,10 @@ public class PlayerScore : MonoBehaviour {
 			knife.render.enabled = true;
 		if (items[4] == 1)
 			cash.render.enabled = true;
+		if (items[5] == 1)
+			phone.render.enabled = true;
+		if (items[6] == 1)
+			gun.render.enabled = true;
 
 	
 	}
@@ -36,11 +41,4 @@ public class PlayerScore : MonoBehaviour {
 	void Awake (){
 			DontDestroyOnLoad(gameObject);
 		}
-
-	void OnGUI ()
-	{
-		GUI.skin = nameBox;
-		GUI.Box (new Rect (0, 0, 600, 100), "");
-		
-	}
 }
