@@ -306,8 +306,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreKeeper: {fileID: 0}
   triggerred: 0
-  killPath: 3b.ClubScene
-  goodPath: 3a.HotelScene
+  killPath: 5b. Subway
+  goodPath: 5a.Hospital
 --- !u!65 &307737015
 BoxCollider:
   m_ObjectHideFlags: 0
