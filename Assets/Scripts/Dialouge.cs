@@ -21,26 +21,28 @@ public class Dialouge : MonoBehaviour {
 
 	bool option2 = false, option3 = false, choice = false;
 
-
+	string tag;
 	public GUISkin talkBox = null;
 	public GUISkin nameBox = null;
 
 	bool force = false;
 
 	void Start () {
+		string a = "aaaabv";
+		print (a);
 
-		tag = Application.loadedLevelName;
-		checkFile (tag);
 		//Records player pos	ition, and transfers speech data from file to array
 		pos = transform.position;
 		string text = textFile.text;
-		if(textFile != null)
-		{
+		if (textFile != null) {
 			// Add each line of the text file to
 			// the array using the new line
 			// as the delimiter
-			dialogLines = Regex.Split(text, "\r\n");
+			dialogLines = Regex.Split (text, "\r\n");
+			print ("Done");
 		}
+		tag = Application.loadedLevelName;
+		checkFile (tag);
 	}
 
 	void OnGUI()
