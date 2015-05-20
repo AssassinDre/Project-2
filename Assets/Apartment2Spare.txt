@@ -1,4 +1,5 @@
 ApartmentScene
+Voice
 NPC
 We've tracked your location. You say you've found the target?
 Hunter

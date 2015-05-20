@@ -75,14 +75,15 @@ public class Dialouge : MonoBehaviour {
 
 	//When you approach an NPC collider, the talk variable is set to true
 	//And that NPC's tag is recorded
-	
+	bool once = true;
 	void OnTriggerEnter(Collider other) {
 		tag = other.tag;
 		talk = true;
 		checker.checkItem (tag);
 
-		if (tag.Contains("Force")){
+		if (tag.Contains("Voice") && once){
 				force = true;
+			once = false;
 				checkFile (tag);
 			}
 		}
