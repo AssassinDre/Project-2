@@ -11,7 +11,7 @@ What?
 NPC
 This is a direct order. You carry a gun for a reason.
 Hunter
-I'm still lacking info
+I'm still lacking info.
 NPC
 Your job is to locate, not to make moral judgements.
 NPC
@@ -23,7 +23,7 @@ Very good. I will check back in when you have completed this task.
 End
 Kid
 Hunter
-  I am going to warn you now, there’s nowhere you can run.
+I am going to warn you now, there’s nowhere you can run.
 NPC
 You think I don’t know that. I wasn’t planning on it. 
 Hunter
@@ -98,7 +98,7 @@ NPC
 Besides, you’re not here to do that.
 Hunter
 No, I’m not. 
-Kid
+NPC
 Well then, do your thing, old man. I’ve got nowhere to run, right?
 Hunter
 Sounds like you’ve given up.
