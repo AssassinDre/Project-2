@@ -60,7 +60,8 @@ NPC
 You know, tattoos are a sign of power where I come from. If you have certain ones, you’re allowed things others aren’t.
 NPC
 I’ve always wanted that and this was supposed to be my chance.
-Hunter: Not everything went according to plan. 
+Hunter
+Not everything went according to plan. 
 NPC
 Hah, you got that right. The guy was ready for me. He’s one of those always prepared types.
 NPC
