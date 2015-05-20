@@ -48,6 +48,7 @@ Hunter
 That sounds like my next stop then.
 End 
 0100
+NPC
 I'm afraid it is my business as the dashing young reporter in charge.
 Hunter
 You don't seem like the in-charge type.
