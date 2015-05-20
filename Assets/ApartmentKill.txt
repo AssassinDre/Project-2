@@ -23,7 +23,7 @@ Very good. I will check back in when you have completed this task.
 End
 Kid
 Hunter
-  I am going to warn you now, there’s nowhere you can run.
+I am going to warn you now, there’s nowhere you can run.
 NPC
 You think I don’t know that. I wasn’t planning on it.
 Hunter

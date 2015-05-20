@@ -213,6 +213,7 @@ public class Dialouge : MonoBehaviour {
 				print (newTemp.Equals("1.BarScene"));
 				print (temp);
 				print (newTemp);
+				print ("Loading Level");
 				Application.LoadLevel(newTemp);
 				
 				return true;
@@ -232,8 +233,8 @@ public class Dialouge : MonoBehaviour {
 					string newTemp = temp.Replace("\r", "").Replace("\n", "");
 					print (newTemp);
 					print (newTemp.Equals("1.BarScene"));
-					if (!newTemp.Equals("None"))
-					    	Application.LoadLevel(newTemp);
+					if (!newTemp.Equals("None") || !newTemp.Contains ("Kid"))
+					    	//Application.LoadLevel(newTemp);
 					force = false;
 					}
 				return true;
