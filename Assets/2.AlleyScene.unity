@@ -562,7 +562,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   talking: 0
-  textFile: {fileID: 4900000, guid: 208999d5acdbc594995b937ef44119e3, type: 3}
+  textFile: {fileID: 4900000, guid: 2a803cfbf66a7824f91456295aa7f1dd, type: 3}
   render: {fileID: 2100000, guid: 2b7a6b3d8d69e55468dc4dfe3f744885, type: 2}
   letterPause: .0199999996
   tag: 
@@ -1014,7 +1014,7 @@ Prefab:
     - target: {fileID: 11400002, guid: 4405e7cd9d559264eaa2fb017f09222c, type: 2}
       propertyPath: textFile
       value: 
-      objectReference: {fileID: 4900000, guid: 208999d5acdbc594995b937ef44119e3, type: 3}
+      objectReference: {fileID: 4900000, guid: 2a803cfbf66a7824f91456295aa7f1dd, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4405e7cd9d559264eaa2fb017f09222c, type: 2}
   m_RootGameObject: {fileID: 624857896}
