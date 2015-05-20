@@ -584,7 +584,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   talking: 0
-  textFile: {fileID: 4900000, guid: 691664aad802e8a4087a877ff8355b51, type: 3}
+  textFile: {fileID: 4900000, guid: b000cf2ebfa4e0241993edc42d8fd36d, type: 3}
   render: {fileID: 2100000, guid: 2b7a6b3d8d69e55468dc4dfe3f744885, type: 2}
   letterPause: .0199999996
   tag: 
@@ -604,7 +604,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   talking: 0
-  textFile: {fileID: 4900000, guid: 691664aad802e8a4087a877ff8355b51, type: 3}
+  textFile: {fileID: 4900000, guid: b000cf2ebfa4e0241993edc42d8fd36d, type: 3}
   render: {fileID: 0}
   letterPause: .100000001
   tag: 

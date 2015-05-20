@@ -26,6 +26,6 @@ But judging by the price tag, I'm sure there will be no problems. (z)
 Hunter
 Yeah, I'll do it. Finding one kid shouldn't be too hard. (z)
 NPC
-Good. We will contact give you further instructions when you have located the target. (z)
+Good. We will contact you with further instructions when you have located the target. (z)
 Change
 1.BarScene
