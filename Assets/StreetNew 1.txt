@@ -1,0 +1,121 @@
+Older Lady
+Hunter
+Ma'am, I'd like to ask you some questions.
+NPC
+Is it about that murder case? People have been through here all afternoon asking.
+Hunter
+Yes, if you know anything, it would be a big help.
+NPC
+I see no reason to give you my story. I'm growing tired of repeating myself over and over.
+Hunter
+PickOption
+(z: Please. I'm looking for someone. x:I'll make it worth your while.)
+NPC
+Looking for someone?
+Hunter
+A kid. I have reason to believe she's wrapped up in this.
+NPC
+... Hm. I suppose I could spare you the details.
+Hunter
+Please tell me what you know.
+NPC
+I more than know, as I've been telling reporter after reporter. 
+NPC
+I was walking past here on the day it happened.
+Hunter
+You're a witness?
+NPC
+So to speak. I never witnessed anything. Merely heard.
+Hunter
+Heard?
+NPC
+There were gunshots. Two, if I recall correctly. 
+NPC
+I made my way home as fast as I possibly could. I did not want to get myself in trouble.
+Hunter
+Gunshots... There was nothing else?
+NPC
+That is all. It came from the alley where the body was found.
+Hunter
+That could prove to be important. Thank you.
+NPC
+Of course, dear.
+End
+0100
+NPC
+Worth my while? You are not one of those men too are you?
+Hunter
+I don't know what you're refering to.
+NPC
+Like the man who was killed. I hear he was involved with some nasty business.
+NPC
+People these days. They do not know how to make a decent living.
+Hunter
+You've seen such people before?
+NPC
+I've witnessed my fair share. 
+NPC
+Did you know the subways are crawling with them? It is despicable, honestly.
+Hunter
+Rest assured, I'm not involved with anything like that.
+NPC
+And rest assured, my suspicion remains.
+Hunter
+That's fine. I think I've got something I can work with.
+End
+Young Man
+NPC
+Hey, you. Are you one of those reporters?
+Hunter
+Me? No, I'm not.
+NPC
+That so? Good. I've been avoiding them all day. 
+NPC
+Finally stopped swarming the place to poke their noses some place else. 
+Hunter
+Sounds like you have something to hide.
+NPC
+No, it's not that. I just. There's this thing.
+Hunter
+Thing?
+NPC
+I found something, back in the alley where that man was found dead.
+Hunter
+Go on.
+NPC
+Here. Take it. I don't want to be holding this any longer. It's your problem now.
+Hunter
+A knife? You found this at the scene of the crime?
+NPC
+Yeah. A while back, before the police and reporters showed up. 
+NPC
+I've been holding on to it, but I couldn't work up the courage to turn it in. 
+NPC
+Do you think it's the murder weapon or something?
+Hunter
+Hm. There's an insignia on the blade.
+NPC
+That's partly what's got me so worried. This insignia belongs to one of the gangs in the area. 
+NPC
+Holdin' on to something like this means trouble.
+Hunter
+A gang symbol? You're sure?
+NPC
+Positive. I haven't seen much activity in the past few days, but it still puts me on edge.
+Hunter
+I haven't heard anything about their activity being on decline.
+NPC
+It's not on decline, but apparently there was an incident. Several members were hospitalized.
+Hunter
+Sounds like trouble broke out.
+NPC
+Something about one of the members starting a fight. 
+NPC
+I don't know what it was over, but chaos broke out.
+NPC
+I feel for that member, if they're not already dead. 
+NPC
+Being on the bad end of a stick like that means you only have so long to live.
+Hunter
+I hear you. I'll have to look into this more. Thanks for the tip.
+End
