@@ -46,7 +46,7 @@ NPC
 I'll be there later to snoop out anything juicy if I can find it. 
 Hunter
 That sounds like my next stop then.
-End 
+End
 0100
 NPC
 I'm afraid it is my business as the dashing young reporter in charge.
